@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-Regular.eot');
+    src: url('fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
+         url('fonts/fira/woff2/FiraSans-Regular.woff2') format('woff2'),
+         url('fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
+         url('fonts/fira/woff2/FiraSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+    }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 10rem;
+    color: black;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+h5 span{
+    color: #00afef;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 37.5rem; /* Set the height of the carousel to 500px */
+  }
+  
+  .carousel-inner {
+    width: 100%;
+    height: 100%; /* Ensure the carousel inner takes full height of the parent carousel */
+  }
+  
+  .carousel-item {
+    height: 100%; /* Set the height of each carousel item to 100% */
+  }
+  
+  .carousel-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;  /* Maintain aspect ratio and cover the entire area */
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    z-index: 1;
+  }
+
+  .carousel-caption {
+    z-index: 20; /* Ensure captions are displayed above the overlay */
+  }
+
+  .empower{
+    font-size: 1.5rem;
+  }
+
+  .empower span{
+    font-weight: bold;
+  }
+
+  .empower .empower_facio{
+    font-size: 1rem;
+  }
+  
+
