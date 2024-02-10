@@ -45,9 +45,17 @@
 }
 
 body{
-    margin: 0 10rem;
+    margin: 0 4.5rem;
     color: black;
     font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.navbar-brand img{
+  height: 2rem;
+}
+
+.nav-item a{
+  font-size: 0.9rem;
 }
 
 h5 span{
@@ -59,7 +67,7 @@ h5 span{
 .carousel_slide {
     overflow: hidden;
     position: relative;
-    height: 37.5rem; /* Set the height of the carousel to 500px */
+    height: 30rem; /* Set the height of the carousel to 500px */
   }
   
   .carousel-inner {
@@ -103,10 +111,53 @@ h5 span{
 
   .empower span{
     font-weight: bold;
+    color: #00afef;
   }
 
   .empower .empower_facio{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
+
   
+@media only screen and (max-width: 481px){
+  body{
+    margin: 0 0;
+    color: black;
+    font-family: 'Segoe UI', Arial, sans-serif;
+  }
+
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 15rem; /* Set the height of the carousel to 500px */
+  }
+}
+
+@media only screen and (max-width: 769px){
+  body{
+    margin: 0 0;
+    color: black;
+    font-family: 'Segoe UI', Arial, sans-serif;
+  }
+
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 15rem; /* Set the height of the carousel to 500px */
+  }
+}
+
+@media only screen and (max-width: 1026px){
+  body{
+    margin: 0 0;
+    color: black;
+    font-family: 'Segoe UI', Arial, sans-serif;
+  }
+
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 20rem; /* Set the height of the carousel to 500px */
+  }
+}
 
