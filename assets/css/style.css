@@ -118,6 +118,27 @@ h5 span{
     font-size: 0.9rem;
   }
 
+  .catalyst{
+    background-color: #3b87c7;
+  }
+  
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
+
+  .join_us{
+    background-color: white;
+    color: #00afef;
+  }
+
+  .sponsors img{
+    height: 20rem;
+    width: 20rem;
+  }
+
   
 @media only screen and (max-width: 481px){
   body{
