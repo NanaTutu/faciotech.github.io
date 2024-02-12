@@ -175,12 +175,16 @@ h5 span{
     background-color: #0067B8;
   }
 
-  /* Contact Us */
+  /* Contact Us Page*/
   .banner {
     height: 300px; /* Adjust height as needed */
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.tech-bill{
+  background-color: #f2f2f2;
 }
 
 .banner-text {
