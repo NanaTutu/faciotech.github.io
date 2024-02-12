@@ -45,9 +45,12 @@
 }
 
 body{
-    margin: 0 4.5rem;
     color: black;
     font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.wrapper{
+  margin: 0 9rem;
 }
 
 p{
@@ -68,6 +71,25 @@ a{
   font-size: 0.9rem;
 }
 
+.navbar-nav .nav-item {
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.btn-donate {
+  text-decoration: none;
+  border: 1px solid black; /* Keep the border */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: text-decoration 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.btn-donate:hover {
+  text-decoration: underline;
+  border-color: black; /* Keep the border color transparent */
+  color: inherit; /* To prevent color change on hover */
+}
+
 h5 span{
     color: #00afef;
     font-size: 2rem;
@@ -77,7 +99,7 @@ h5 span{
 .carousel_slide {
     overflow: hidden;
     position: relative;
-    height: 30rem; /* Set the height of the carousel to 500px */
+    height: 40rem; /* Set the height of the carousel to 500px */
   }
   
   .carousel-inner {
@@ -153,12 +175,26 @@ h5 span{
     background-color: #0067B8;
   }
 
+  /* Contact Us */
+  .banner {
+    height: 300px; /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: white;
+}
+
   
 @media only screen and (max-width: 481px){
-  body{
+  .wrapper{
     margin: 0 0.3rem;
-    color: black;
-    font-family: 'Segoe UI', Arial, sans-serif;
   }
 
   .carousel_slide {
@@ -181,10 +217,8 @@ h5 span{
 }
 
 @media only screen and (max-width: 769px){
-  body{
+  .wrapper{
     margin: 0 0.3rem;
-    color: black;
-    font-family: 'Segoe UI', Arial, sans-serif;
   }
 
   .carousel_slide {
@@ -195,10 +229,8 @@ h5 span{
 }
 
 @media only screen and (max-width: 1026px){
-  body{
+  .wrapper{
     margin: 0 0.3rem;
-    color: black;
-    font-family: 'Segoe UI', Arial, sans-serif;
   }
 
   .carousel_slide {
