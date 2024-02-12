@@ -50,6 +50,16 @@ body{
     font-family: 'Segoe UI', Arial, sans-serif;
 }
 
+p{
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 0.9rem;  
+}
+
+a{
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: bold;
+}
+
 .navbar-brand img{
   height: 2rem;
 }
@@ -119,7 +129,7 @@ h5 span{
   }
 
   .catalyst{
-    background-color: #3b87c7;
+    background-color: #0067B8;
   }
   
   .center-content {
@@ -129,20 +139,24 @@ h5 span{
     height: 100vh; /* Adjust as needed */
   }
 
-  .join_us{
+  /* .join_us{
     background-color: white;
     color: #00afef;
-  }
+  } */
 
   .sponsors img{
-    height: 20rem;
+    height: 10rem;
     width: 20rem;
+  }
+
+  footer{
+    background-color: #0067B8;
   }
 
   
 @media only screen and (max-width: 481px){
   body{
-    margin: 0 0;
+    margin: 0 0.3rem;
     color: black;
     font-family: 'Segoe UI', Arial, sans-serif;
   }
@@ -152,11 +166,23 @@ h5 span{
     position: relative;
     height: 15rem; /* Set the height of the carousel to 500px */
   }
+
+  /* .join_us{
+    font-size: 0.7rem;
+  }
+
+  .catalyst h2{
+    font-size: 1.2rem;
+  }
+
+  .catalyst-e{
+    display: none;
+  } */
 }
 
 @media only screen and (max-width: 769px){
   body{
-    margin: 0 0;
+    margin: 0 0.3rem;
     color: black;
     font-family: 'Segoe UI', Arial, sans-serif;
   }
@@ -170,7 +196,7 @@ h5 span{
 
 @media only screen and (max-width: 1026px){
   body{
-    margin: 0 0;
+    margin: 0 0.3rem;
     color: black;
     font-family: 'Segoe UI', Arial, sans-serif;
   }
