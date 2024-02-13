@@ -198,7 +198,7 @@ h5 span{
   
 @media only screen and (max-width: 481px){
   .wrapper{
-    margin: 0 0.3rem;
+    margin: 0 0rem;
   }
 
   .carousel_slide {
@@ -222,7 +222,7 @@ h5 span{
 
 @media only screen and (max-width: 769px){
   .wrapper{
-    margin: 0 0.3rem;
+    margin: 0 0rem;
   }
 
   .carousel_slide {
@@ -234,7 +234,7 @@ h5 span{
 
 @media only screen and (max-width: 1026px){
   .wrapper{
-    margin: 0 0.3rem;
+    margin: 0 0;
   }
 
   .carousel_slide {
