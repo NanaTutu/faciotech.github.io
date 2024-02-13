@@ -60,7 +60,12 @@ p{
 
 a{
   font-family: 'Segoe UI', Arial, sans-serif;
-  font-weight: bold;
+  /* font-weight: bold; */
+  color:#0067B8;
+}
+
+.btn, .form-control{
+  border-radius: 0;
 }
 
 .navbar-brand img{
@@ -205,6 +210,10 @@ h5 span{
     overflow: hidden;
     position: relative;
     height: 15rem; /* Set the height of the carousel to 500px */
+  }
+  
+  .contact-form{
+    font-family: 'Segoe UI', Arial, sans-serif;
   }
 
   /* .join_us{
