@@ -200,6 +200,17 @@ h5 span{
     color: white;
 }
 
+/* who we are */
+.wwa-wrapper{
+  margin: 0;
+  padding: 0;
+}
+
+.wwa-header{
+  margin: 0 5em;
+}
+/* who we are */
+
   
 @media only screen and (max-width: 481px){
   .wrapper{

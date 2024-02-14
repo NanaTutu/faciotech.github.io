@@ -7,10 +7,17 @@
     <title>Faciotech Foundation</title>
     <link rel="icon" type="image/png" href="assets/images/favicon1.png"/>
     <!-- CSS only -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="assets/css/mdb_css/mdb.min.css"> -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/bootnavbar.css" />
 
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
@@ -20,51 +27,240 @@
           <!-- Header and Navigation and Carousel-->
         <!-- Navigation -->
         <header>
-          <nav class="navbar navbar-expand-md" aria-label="Fourth navbar example">
+          <nav class="navbar navbar-expand-lg navbar-light " id="main_navbar">
             <div class="container-fluid">
-                <!-- Logo -->
-                <a class="navbar-brand" href="#">
-                    <img src="assets/images/logo.png" class="img-fluid" alt="Faciotech Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Logo End -->
-
-                <div class="collapse navbar-collapse" id="navbarsExample04">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                                aria-expanded="false">About Us</a>
+              <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" class="img-fluid" alt="Faciotech Logo">
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  
+    
+                  <!-- About Us Menu Item -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                    >
+                      About Us
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item dropdown">
+                        <a
+                          class="dropdown-item dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                        >
+                          Who We Are
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item dropdown">
+                            <a
+                              class="dropdown-item dropdown-toggle"
+                              href="#"
+                              role="button"
+                              data-bs-toggle="dropdown"
+                            >
+                              History
+                            </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Who We Are</a></li>
-                                <li><a class="dropdown-item" href="#">Events</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              <li><a class="dropdown-item" href="#">Company News</a></li>
+                              <li>
+                                <a class="dropdown-item" href="#">Sustainability</a>
+                              </li>
+                              
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Solutions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Grants</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact_us.html">Contact Us</a>
-                        </li>
+                          </li>
+    
+                          <li class="nav-item dropdown">
+                            <a
+                              class="dropdown-item dropdown-toggle"
+                              href="#"
+                              role="button"
+                              data-bs-toggle="dropdown"
+                            >
+                              Team
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Organogram</a></li>
+                              <li>
+                                <a class="dropdown-item" href="#">Diversity and Inclusion</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="career.html">Careers</a>
+                              </li>
+                            </ul>
+                          </li>
+    
+                        </ul>
+                      </li>
+    
+                      <li class="nav-item dropdown">
+                        <a
+                          class="dropdown-item dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                        >
+                          Events
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item dropdown">
+                            <a
+                              class="dropdown-item dropdown-toggle"
+                              href="#"
+                              role="button"
+                              data-bs-toggle="dropdown"
+                            >
+                              Registration
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Event Management</a></li>
+                              
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+    
+                      
                     </ul>
-                    <!-- Donate button -->
-                    <button class="btn btn-donate" type="button">Get Started</button>
-                </div>
+                  </li>
+    
+                  <!-- Soutions Menu Items -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                    >
+                      Solutions
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item dropdown">
+                        <a
+                          class="dropdown-item dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                        >
+                          List of Web Apps
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Individual Apps</a></li>
+    
+                        </ul>
+                      </li>
+    
+                    </ul>
+                  </li>
+    
+                  <!-- Grants -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                    >
+                      Grants
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item dropdown">
+                        <a
+                          class="dropdown-item dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                        >
+                          Individual Grants
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item dropdown">
+                            <a
+                              class="dropdown-item dropdown-toggle"
+                              href="#"
+                              role="button"
+                              data-bs-toggle="dropdown"
+                            >
+                              Grant Details
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Description</a></li>
+                              <li>
+                                <a class="dropdown-item" href="#">Eligibility</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">Application</a>
+                              </li>
+                            </ul>
+                          </li>
+    
+                        </ul>
+                      </li>
+    
+                      
+                    </ul>
+                  </li>
+    
+                  <!-- Project Menu Items -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                    >
+                      Projects
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item dropdown">
+                        <a
+                          class="dropdown-item dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                        >
+                          Individual Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Project Details</a></li>
+                          <li><a class="dropdown-item" href="#">Success Stories</a></li>
+                        </ul>
+                      </li>
+    
+                      
+                    </ul>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+    
+                </ul>
+    
+                <!-- Donate button -->
+                <button class="btn btn-donate" type="button">Get Started</button>
+              </div>
             </div>
-        </nav>
+          </nav>
 
           <!-- Carousel -->
           
@@ -321,8 +517,12 @@
     </footer>
     
 
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="assets/js/mdb_js/mdb.umd.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/adf3523ab0.js" crossorigin="anonymous"></script>
+    <script src="assets/js/bootnavbar.js"></script>
+    <script>
+      new bootnavbar();
+    </script>
 </body>
 
 </html>
