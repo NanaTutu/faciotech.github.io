@@ -211,6 +211,28 @@ h5 span{
 }
 /* career */
 
+.dropdown-menu-horizontal{
+  min-width: 70rem;
+}
+
+.overflow-wrap{
+  white-space: normal;
+}
+.dropdown-menu.dropdown-menu-horizontal .dropdown-item:hover {
+  background-color: transparent; /* Set background color to transparent on hover */
+  color: inherit; /* Inherit text color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+a.visit{/* Inherit text color on hover */
+  text-decoration: none;
+}
+.dropdown-menu .dropdown-item a:hover {
+    background: none; /* Remove background color on hover */
+    color: inherit; /* Inherit text color on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+
   
 @media only screen and (max-width: 481px){
   .wrapper{
@@ -226,6 +248,11 @@ h5 span{
   .contact-form{
     font-family: 'Segoe UI', Arial, sans-serif;
   }
+
+  .dropdown-menu .dropdown-item .col-md-3 h6,
+    .dropdown-menu .dropdown-item .col-md-3 p {
+        display: none;
+    }
 
   /* .join_us{
     font-size: 0.7rem;
@@ -250,6 +277,11 @@ h5 span{
     position: relative;
     height: 15rem; /* Set the height of the carousel to 500px */
   }
+
+  .dropdown-menu .dropdown-item .col-md-3 h6,
+    .dropdown-menu .dropdown-item .col-md-3 p {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1026px){
@@ -262,5 +294,10 @@ h5 span{
     position: relative;
     height: 20rem; /* Set the height of the carousel to 500px */
   }
+
+  .dropdown-menu .dropdown-item .col-md-3 h6,
+    .dropdown-menu .dropdown-item .col-md-3 p {
+        display: none;
+    }
 }
 
