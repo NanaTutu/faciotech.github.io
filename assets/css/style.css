@@ -1,88 +1,91 @@
 @font-face {
-    font-family: "Fira Sans";
-    src: url('fonts/fira/eot/FiraSans-Regular.eot');
-    src: url('fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
-         url('fonts/fira/woff2/FiraSans-Regular.woff2') format('woff2'),
-         url('fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
-         url('fonts/fira/woff2/FiraSans-Regular.ttf') format('truetype');
+  font-family: "Fira Sans";
+  src: url('fonts/fira/eot/FiraSans-Regular.eot');
+  src: url('fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
+    url('fonts/fira/woff2/FiraSans-Regular.woff2') format('woff2'),
+    url('fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
+    url('fonts/fira/woff2/FiraSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Segoe UI Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
-    }
-    
-
-@font-face {
-    font-family: 'Segoe UI Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
-    }
-    
-
-@font-face {
-    font-family: 'Segoe UI Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
-    }
-    
-
-@font-face {
-    font-family: 'Segoe UI Bold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
-    }
-
-
-*{
-    margin: 0;
-    padding: 0;
+  font-family: 'Segoe UI Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
 }
 
-body{
-    color: black;
-    font-family: 'Segoe UI', Arial, sans-serif;
+
+@font-face {
+  font-family: 'Segoe UI Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
 }
 
-.wrapper{
+
+@font-face {
+  font-family: 'Segoe UI Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Segoe UI Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: black;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.wrapper {
   margin: 0 9rem;
 }
 
-p{
+p {
   font-family: 'Segoe UI', Arial, sans-serif;
-  font-size: 0.9rem;  
+  font-size: 0.9rem;
 }
 
-a{
+a {
   font-family: 'Segoe UI', Arial, sans-serif;
   /* font-weight: bold; */
-  color:#0067B8;
+  color: #0067B8;
 }
 
-.btn, .form-control{
+.btn,
+.form-control {
   border-radius: 0;
 }
 
-.navbar-brand img{
+.navbar-brand img {
   height: 2rem;
 }
 
-.nav-item a{
+.nav-item a {
   font-size: 0.9rem;
 }
 
 .navbar-nav .nav-item {
-  margin-right: 20px; /* Adjust as needed */
+  margin-right: 20px;
+  /* Adjust as needed */
 }
 
 .btn-donate {
   text-decoration: none;
-  border: 1px solid black; /* Keep the border */
+  border: 1px solid black;
+  /* Keep the border */
   border-radius: 5px;
   cursor: pointer;
   transition: text-decoration 0.3s ease;
@@ -91,289 +94,318 @@ a{
 
 .btn-donate:hover {
   text-decoration: underline;
-  border-color: black; /* Keep the border color transparent */
-  color: inherit; /* To prevent color change on hover */
+  border-color: black;
+  /* Keep the border color transparent */
+  color: inherit;
+  /* To prevent color change on hover */
 }
 
-h5 span{
-    color: #00afef;
-    font-size: 2rem;
-    font-family: 'Segoe UI', Arial, sans-serif;
+h5 span {
+  color: #00afef;
+  font-size: 2rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 .carousel_slide {
-    overflow: hidden;
-    position: relative;
-    height: 40rem; /* Set the height of the carousel to 500px */
-  }
-  
-  .carousel-inner {
-    width: 100%;
-    height: 100%; /* Ensure the carousel inner takes full height of the parent carousel */
-  }
-  
-  .carousel-item {
-    height: 100%; /* Set the height of each carousel item to 100% */
-  }
-  
-  .carousel-item img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    object-fit: cover;  /* Maintain aspect ratio and cover the entire area */
-  }
+  overflow: hidden;
+  position: relative;
+  height: 40rem;
+  /* Set the height of the carousel to 500px */
+}
 
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
-    z-index: 1;
-  }
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+  /* Ensure the carousel inner takes full height of the parent carousel */
+}
 
-  .carousel-caption {
-    z-index: 20; /* Ensure captions are displayed above the overlay */
-  }
+.carousel-item {
+  height: 100%;
+  /* Set the height of each carousel item to 100% */
+}
 
-  .empower{
-    font-size: 1.5rem;
-  }
+.carousel-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  /* Maintain aspect ratio and cover the entire area */
+}
 
-  .empower span{
-    font-weight: bold;
-    color: #00afef;
-  }
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adjust opacity as needed */
+  z-index: 1;
+}
 
-  .empower .empower_facio{
-    font-size: 0.9rem;
-  }
+.carousel-caption {
+  z-index: 20;
+  /* Ensure captions are displayed above the overlay */
+}
 
-  .catalyst{
-    background-color: #0067B8;
-  }
-  
-  .center-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Adjust as needed */
-  }
+.empower {
+  font-size: 1.5rem;
+}
 
-  /* .join_us{
+.empower span {
+  font-weight: bold;
+  color: #00afef;
+}
+
+.empower .empower_facio {
+  font-size: 0.9rem;
+}
+
+.catalyst {
+  background-color: #0067B8;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Adjust as needed */
+}
+
+/* .join_us{
     background-color: white;
     color: #00afef;
   } */
 
-  .sponsors img{
-    height: 10rem;
-    width: 20rem;
-  }
-
-  footer{
-    background-color: #0067B8;
-  }
-
-  /* Contact Us Page*/
-  .banner {
-    height: 300px; /* Adjust height as needed */
-    background-size: cover;
-    background-position: center;
-    position: relative;
+.sponsors img {
+  height: 10rem;
+  width: 20rem;
 }
 
-.tech-bill{
+footer {
+  background-color: #0067B8;
+}
+
+/* Contact Us Page*/
+.banner {
+  height: 300px;
+  /* Adjust height as needed */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.tech-bill {
   background-color: #f2f2f2;
 }
 
 .banner-text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px;
-    color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  color: white;
 }
 
 /* career */
-.career-wrapper{
+.career-wrapper {
   margin: 0;
   padding: 0;
 }
 
-.career-header{
+.career-header {
   margin: 0 5em;
 }
+
 /* career */
 
-.dropdown-menu-horizontal{
+.dropdown-menu-horizontal {
   min-width: 70rem;
 }
 
-.overflow-wrap{
+.overflow-wrap {
   white-space: normal;
 }
+
 .dropdown-menu.dropdown-menu-horizontal .dropdown-item:hover {
-  background-color: transparent; /* Set background color to transparent on hover */
-  color: inherit; /* Inherit text color on hover */
-  text-decoration: none; /* Remove underline on hover */
+  background-color: transparent;
+  /* Set background color to transparent on hover */
+  color: inherit;
+  /* Inherit text color on hover */
+  text-decoration: none;
+  /* Remove underline on hover */
 }
-a.visit{/* Inherit text color on hover */
+
+a.visit {
+  /* Inherit text color on hover */
   text-decoration: none;
 }
+
 .dropdown-menu .dropdown-item a:hover {
-    background: none; /* Remove background color on hover */
-    color: inherit; /* Inherit text color on hover */
-    text-decoration: none; /* Remove underline on hover */
+  background: none;
+  /* Remove background color on hover */
+  color: inherit;
+  /* Inherit text color on hover */
+  text-decoration: none;
+  /* Remove underline on hover */
 }
 
 /* testimonials */
 .testimonials {
-	background: #e9ecef;
-	background-size: cover;
-	background-position: center center;
-	padding: 50px 0;
+  background: #e9ecef;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
 }
 
 .testimonials h2 {
-	font-size: 2.15rem;
+  font-size: 2.15rem;
 }
 
-.carousel {
+/* .carousel {
 	margin: 50px auto;
 	padding: 0 70px;
-}
+} */
 
 .carousel p {
-	color: #3a3d4b;
+  color: #3a3d4b;
 }
 
 .carousel .star {
-	color: #f2bc3b;
-	font-size: 24px;
-	margin: 45px 0;
+  color: #f2bc3b;
+  font-size: 24px;
+  margin: 45px 0;
 }
 
 .carousel .item {
-	font-size: 1.45rem;
-	text-align: center;
-	overflow: hidden;
-	min-height: 290px;
-}
-
-.carousel .item .img-box {
-	width: 145px;
-	height: 145px;
-	margin: 0 auto;
-	padding: 5px;
-	border-radius: 50%;
-}
-
-.carousel .img-box img {
-	width: 100%;
-	height: 100%;
-	display: block;
-	border-radius: 50%;
+  font-size: 1.45rem;
+  text-align: center;
+  overflow: hidden;
+  min-height: 290px;
 }
 
 .carousel .testimonial {
-	padding: 30px 0 10px;
-	font-weight: 600;
+  padding: 30px 0 10px;
+  font-weight: 600;
 }
 
 .carousel .overview {
-	font-style: italic;
-	font-size: 12px;
-	font-weight: 600;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .carousel .overview b {
-	text-transform: uppercase;
-	color: #555;
+  text-transform: uppercase;
+  color: #555;
 }
 
 .carousel .carousel-control {
-	width: 40px;
-	height: 40px;
-	margin-top: -20px;
-	top: 15%;
-	background: none;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  top: 15%;
+  background: none;
 }
 
 .carousel-control i {
-	font-size: 36px;
-	line-height: 42px;
-	position: absolute;
-	display: inline-block;
-	color: rgba(0, 0, 0, 0.8);
-	text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+  font-size: 36px;
+  line-height: 42px;
+  position: absolute;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
 }
 
 .carousel .carousel-indicators {
-	bottom: -40px;
+  bottom: -40px;
 }
 
 .carousel-indicators li,
 .carousel-indicators li.active {
-	width: 10px;
-	height: 10px;
-	margin: 1px 3px;
-	border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 1px 3px;
+  border-radius: 50%;
 }
 
 .carousel-indicators li {
-	background: #999;
-	border-color: transparent;
-	box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+  background: #999;
+  border-color: transparent;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .carousel-indicators li.active {
-	background: #555;
-	box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+  background: #555;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.carousel-control-prev,
-    .carousel-control-next {
-        color: #333; /* Deep grey */
-        width: 1%; /* Adjust width to spread them out */
-        opacity: 0.7; /* Adjust opacity if needed */
-    }
+.c-left,
+.c-right {
+  color: #000000;
+  /* Deep grey */
+  width: 1%;
+  /* Adjust width to spread them out */
+  opacity: 0.7;
+  /* Adjust opacity if needed */
+}
 
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-        filter: invert(100%); /* Invert icon color */
-    }
+.control-icon {
+  filter: invert(100%);
+  /* Invert icon color */
+}
 
-    .carousel-control-prev:hover,
-    .carousel-control-next:hover {
-        opacity: 1; /* Show controls fully on hover */
-    }
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
 
-  
-@media only screen and (max-width: 481px){
-  .wrapper{
+/* project page */
+.vertical-text {
+  writing-mode: vertical-rl; /* Set the text orientation to vertical */
+  text-orientation: mixed; /* Allow the text to be both horizontal and vertical */
+  transform: rotate(180deg); /* Rotate the text 90 degrees clockwise */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.project_image {
+  width: 100%; /* Set the width to 100% to make the image fill its container */
+  max-width: none; /* Ensure the image can expand beyond its natural size */
+}
+
+.featured_projects {
+  display: flex;
+  justify-content: center; /* Align items to the center horizontally */
+  align-items: center; /* Align items to the center vertically */
+}
+
+
+@media only screen and (max-width: 481px) {
+  .wrapper {
     margin: 0 0rem;
   }
 
   .carousel_slide {
     overflow: hidden;
     position: relative;
-    height: 15rem; /* Set the height of the carousel to 500px */
+    height: 15rem;
+    /* Set the height of the carousel to 500px */
   }
-  
-  .contact-form{
+
+  .contact-form {
     font-family: 'Segoe UI', Arial, sans-serif;
   }
 
   .dropdown-menu .dropdown-item .col-md-3 h6,
-    .dropdown-menu .dropdown-item .col-md-3 p {
-        display: none;
-    }
+  .dropdown-menu .dropdown-item .col-md-3 p {
+    display: none;
+  }
 
   /* .join_us{
     font-size: 0.7rem;
@@ -388,37 +420,38 @@ a.visit{/* Inherit text color on hover */
   } */
 }
 
-@media only screen and (max-width: 769px){
-  .wrapper{
+@media only screen and (max-width: 769px) {
+  .wrapper {
     margin: 0 0rem;
   }
 
   .carousel_slide {
     overflow: hidden;
     position: relative;
-    height: 15rem; /* Set the height of the carousel to 500px */
+    height: 15rem;
+    /* Set the height of the carousel to 500px */
   }
 
   .dropdown-menu .dropdown-item .col-md-3 h6,
-    .dropdown-menu .dropdown-item .col-md-3 p {
-        display: none;
-    }
+  .dropdown-menu .dropdown-item .col-md-3 p {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 1026px){
-  .wrapper{
+@media only screen and (max-width: 1026px) {
+  .wrapper {
     margin: 0 0;
   }
 
   .carousel_slide {
     overflow: hidden;
     position: relative;
-    height: 20rem; /* Set the height of the carousel to 500px */
+    height: 20rem;
+    /* Set the height of the carousel to 500px */
   }
 
   .dropdown-menu .dropdown-item .col-md-3 h6,
-    .dropdown-menu .dropdown-item .col-md-3 p {
-        display: none;
-    }
+  .dropdown-menu .dropdown-item .col-md-3 p {
+    display: none;
+  }
 }
-
