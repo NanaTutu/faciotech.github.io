@@ -415,17 +415,15 @@ a.visit {
     white-space: normal; /* Allow text to wrap */
   }
 
-  /* .join_us{
-    font-size: 0.7rem;
+  .dd-link-res{
+    padding: 0;
   }
 
-  .catalyst h2{
-    font-size: 1.2rem;
+  a.visit{
+    text-decoration: none;
+    font-weight: normal;
   }
 
-  .catalyst-e{
-    display: none;
-  } */
 }
 
 @media only screen and (max-width: 769px) {
@@ -452,6 +450,15 @@ a.visit {
     transform: none; /* Reset transform */
     white-space: normal; /* Allow text to wrap */
   }
+
+  .dd-link-res{
+    padding: 0;
+  }
+
+  a.visit{
+    text-decoration: none;
+    font-weight: normal;
+  }
 }
 
 @media only screen and (max-width: 1026px) {
@@ -477,5 +484,14 @@ a.visit {
     text-orientation: mixed;
     transform: none; /* Reset transform */
     white-space: normal; /* Allow text to wrap */
+  }
+
+  .dd-link-res{
+    padding: 0;
+  }
+
+  a.visit{
+    text-decoration: none;
+    font-weight: normal;
   }
 }
