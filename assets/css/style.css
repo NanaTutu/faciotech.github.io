@@ -407,6 +407,14 @@ a.visit {
     display: none;
   }
 
+  .vertical-text {
+    /* Reset text orientation to horizontal */
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    transform: none; /* Reset transform */
+    white-space: normal; /* Allow text to wrap */
+  }
+
   /* .join_us{
     font-size: 0.7rem;
   }
@@ -436,6 +444,14 @@ a.visit {
   .dropdown-menu .dropdown-item .col-md-3 p {
     display: none;
   }
+
+  .vertical-text {
+    /* Reset text orientation to horizontal */
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    transform: none; /* Reset transform */
+    white-space: normal; /* Allow text to wrap */
+  }
 }
 
 @media only screen and (max-width: 1026px) {
@@ -453,5 +469,13 @@ a.visit {
   .dropdown-menu .dropdown-item .col-md-3 h6,
   .dropdown-menu .dropdown-item .col-md-3 p {
     display: none;
+  }
+
+  .vertical-text {
+    /* Reset text orientation to horizontal */
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    transform: none; /* Reset transform */
+    white-space: normal; /* Allow text to wrap */
   }
 }
