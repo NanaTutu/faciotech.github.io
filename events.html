@@ -18,8 +18,9 @@
 
 <body class="d-flex flex-column min-vh-100">
 
-  <div>
-    <header class="wrapper">
+  <div class="wrapper">
+    <header>
+      <!-- navigation -->
       <nav class="navbar navbar-expand-lg navbar-light " id="main_navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -68,32 +69,35 @@
                 </a>
                 <ul class="dropdown-menu dropdown-menu-horizontal">
                   <li class="nav-item dropdown">
-                    <a class="dropdown-item dd-link dd-link-res" href="#" role="button" data-bs-toggle="dropdown">
+                    <a class="dropdown-item dd-link" href="#" role="button" data-bs-toggle="dropdown">
                       <div class="row">
                         <div class="col-md-3 border-end overflow-wrap">
                           <div class="py-1">
                             <h6 class="d-none d-md-block">Application One</h6>
                             <p class="overflow-wrap py-1 d-none d-md-block">
-                              Connect to any device, at any time, and centrally monitor and manage
-                              your IT with the world's most trusted remote access and support solution.
+                              Connect to any device, at any time, and centrally monitor
+                              and manage your IT with the
+                              worlds most trusted remote access and support solution.
                             </p>
                           </div>
-                          <div>
-                            <a href="#" class="mx-3 fs-6 fw-bold visit">Visit Application One</a>
+                          <div class="my-4">
+                            <a href="#" class="mx-3 fs-6 fw-bold visit">Visit Application
+                              One</a>
                           </div>
                         </div>
 
-                        <!-- Repeat for other applications -->
                         <div class="col-md-3 border-end overflow-wrap">
                           <div class="py-1">
                             <h6 class="d-none d-md-block">Application Two</h6>
                             <p class="overflow-wrap py-1 d-none d-md-block">
-                              Connect to any device, at any time, and centrally monitor and manage
-                              your IT with the world's most trusted remote access and support solution.
+                              Connect to any device, at any time, and centrally monitor
+                              and manage your IT with the
+                              worlds most trusted remote access and support solution.
                             </p>
                           </div>
-                          <div>
-                            <a href="#" class="mx-3 fs-6 fw-bold visit">Visit Application Two</a>
+                          <div class="my-4">
+                            <a href="#" class="mx-3 fs-6 fw-bold visit">Visit Application
+                              Two</a>
                           </div>
                         </div>
 
@@ -101,12 +105,14 @@
                           <div class="py-1">
                             <h6 class="d-none d-md-block">Application Three</h6>
                             <p class="overflow-wrap py-1 d-none d-md-block">
-                              Connect to any device, at any time, and centrally monitor and manage
-                              your IT with the world's most trusted remote access and support solution.
+                              Connect to any device, at any time, and centrally monitor
+                              and manage your IT with the
+                              worlds most trusted remote access and support solution.
                             </p>
                           </div>
-                          <div>
-                            <a href="#" class="mx-3 fs-6 fw-bold visit">Visit Application Three</a>
+                          <div class="my-4">
+                            <a href="#" class="mx-3 fs-6 fw-bold visit">Visit Application
+                              Three</a>
                           </div>
                         </div>
 
@@ -114,14 +120,19 @@
                           <div class="py-1">
                             <h6 class="d-none d-md-block">Application Four</h6>
                             <p class="overflow-wrap py-1 d-none d-md-block">
-                              Connect to any device, at any time, and centrally monitor and manage
-                              your IT with the world's most trusted remote access and support solution.
+                              Connect to any device, at any time, and centrally monitor
+                              and manage your IT with the
+                              worlds most trusted remote access and support solution.
                             </p>
                           </div>
-                          <div>
-                            <a href="#" class="mx-3 fs-6 fw-bold visit">Visit Application Four</a>
+                          <div class="my-4">
+                            <a href="#" class="mx-3 fs-6 fw-bold visit">Visit Application
+                              Four</a>
                           </div>
                         </div>
+
+
+
                       </div>
                     </a>
                   </li>
@@ -140,7 +151,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link dd-link" href="contact_us.html">Contact Us</a>
+                <a class="nav-link dd-link active" aria-current="page" href="contact_us.html">Contact Us</a>
               </li>
 
             </ul>
@@ -150,152 +161,147 @@
           </div>
         </div>
       </nav>
+      <!-- navigation -->
+
+      <!-- banner -->
+      <div class="container-fluid p-0 d-flex align-items-center" style="margin-top: 30px; margin-bottom: 0px; height: 300px; background-image: url('assets/images/events.jpg'); background-size: cover; background-position: center;">
+        <div style="padding-left: 20px;" class="text-white mx-5">
+          <h1 style="font-style: normal; font-weight: 700; line-height: 26px; font-size: 20px;">Explore all events</h1>
+          <p style="font-style: normal; font-weight: 400; line-height: 24px; font-size: 16px;">Stay up to date and learn more about Faciotech solutions and events</p>
+        </div>
+      </div>
+      <!-- banner -->
     </header>
-
-    <!-- banner -->
-    <div class="container-fluid p-0 banner">
-      <div class="row m-0">
-        <div class="col p-0">
-          <div class="p-4 p-md-5">
-            <h5 style="color: blue;">EVENTS</h5>
-            <h4 class="fs-1 fw-bolder" style="color: #050a52;">
-              Find out about upcoming and on-demand webinars, trade shows and workshops
-            </h4>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- banner -->
-
-    <!-- events -->
-    <div class="container-fluid bg-light events">
-      <div class="row justify-content-center text-center m-0">
-        <div class="col-md-8 my-3">
-          <h1 class="fw-bolder" style="color: #050a52;">Explore all events</h1>
-          <p class="fs-5" style="color: grey;">Stay up to date and learn more about Faciotech solutions and events</p>
-        </div>
-      </div>
-
-      <div>
-        <div class="events-container">
-          <div class="tab-wrapper">
-            <!-- tabs header -->
-            <div class="tab-header">
-              <button class="tab-btn active">Webinars</button>
-              <button class="tab-btn">Tradeshows and events</button>
-              <button class="tab-btn">Faciotech Experience Days</button>
-              <div class="underline"></div>
-            </div>
-            <!-- tabs header -->
-
-            <!-- tabs body -->
-            <div class="tab-body">
-              <div class="tab-content">
-                <div class="row">
-                  <div class="col-md-4 col-sm-12">
-                    <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
-                      <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
-                        <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
-                      </div>
-                    </div>
-                    <h5 class="fw-bold my-2" style="color: #050a52;">Event One</h5>    
-                  </div>
-                  <div class="col-md-4 col-sm-12">
-                    <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
-                      <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
-                        <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
-                      </div>
-                    </div>
-                    <h5 class="fw-bold my-2" style="color: #050a52;">Event Two</h5>
-                  </div>
-                  <div class="col-md-4 col-sm-12">
-                    <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
-                      <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
-                        <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
-                      </div>
-                    </div>
-                    <h5 class="fw-bold my-2" style="color: #050a52;">Event Three</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-content">
-                <div class="row">
-                  <div class="col-md-4 col-sm-12">
-                    <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
-                      <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
-                        <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
-                      </div>
-                    </div>
-                    <h5 class="fw-bold my-2" style="color: #050a52;">Event One</h5>    
-                  </div>
-                  <div class="col-md-4 col-sm-12">
-                    <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
-                      <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
-                        <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
-                      </div>
-                    </div>
-                    <h5 class="fw-bold my-2" style="color: #050a52;">Event Two</h5>
-                  </div>
-                  <div class="col-md-4 col-sm-12">
-                    <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
-                      <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
-                        <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
-                      </div>
-                    </div>
-                    <h5 class="fw-bold my-2" style="color: #050a52;">Event Three</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-content">
-                <div class="row">
-                  <div class="col-md-4 col-sm-12">
-                    <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
-                      <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
-                        <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
-                      </div>
-                    </div>
-                    <h5 class="fw-bold my-2" style="color: #050a52;">Event One</h5>    
-                  </div>
-                  <div class="col-md-4 col-sm-12">
-                    <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
-                      <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
-                        <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
-                      </div>
-                    </div>
-                    <h5 class="fw-bold my-2" style="color: #050a52;">Event Two</h5>
-                  </div>
-                  <div class="col-md-4 col-sm-12">
-                    <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
-                      <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
-                        <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
-                      </div>
-                    </div>
-                    <h5 class="fw-bold my-2" style="color: #050a52;">Event Three</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- tabs body -->
-
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <!-- events -->
-    
-    <!-- socials -->
-    <div class="container-fluid px-5">
-      <div class="row">
-        <p class="fs-6">Follow Faciotech
-          <i class="fa-brands fa-facebook-f mx-3"></i>
-          <i class="fa-brands fa-twitter mx-2"></i>
-          <i class="fa-brands fa-linkedin mx-2"></i>
-        </p>
-      </div>
-    </div>
-    <!-- socials -->
   </div>
+
+  <!-- events -->
+  <div class="container-fluid events">
+    <div class="row justify-content-center text-center m-0">
+      <div class="col-md-8 my-3">
+        <h1 class="fw-bolder" style="color: #050a52;">Explore all events</h1>
+        <p class="fs-5" style="color: grey;">Stay up to date and learn more about Faciotech solutions and events</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="events-container">
+        <div class="tab-wrapper">
+          <!-- tabs header -->
+          <div class="tab-header">
+            <button class="tab-btn active">Webinars</button>
+            <button class="tab-btn">Tradeshows and events</button>
+            <button class="tab-btn">Faciotech Experience Days</button>
+            <div class="underline"></div>
+          </div>
+          <!-- tabs header -->
+
+          <!-- tabs body -->
+          <div class="tab-body">
+            <div class="tab-content">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
+                    <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
+                      <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
+                    </div>
+                  </div>
+                  <h5 class="fw-bold my-2" style="color: #050a52;">Event One</h5>    
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
+                    <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
+                      <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
+                    </div>
+                  </div>
+                  <h5 class="fw-bold my-2" style="color: #050a52;">Event Two</h5>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
+                    <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
+                      <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
+                    </div>
+                  </div>
+                  <h5 class="fw-bold my-2" style="color: #050a52;">Event Three</h5>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
+                    <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
+                      <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
+                    </div>
+                  </div>
+                  <h5 class="fw-bold my-2" style="color: #050a52;">Event One</h5>    
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
+                    <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
+                      <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
+                    </div>
+                  </div>
+                  <h5 class="fw-bold my-2" style="color: #050a52;">Event Two</h5>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
+                    <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
+                      <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
+                    </div>
+                  </div>
+                  <h5 class="fw-bold my-2" style="color: #050a52;">Event Three</h5>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
+                    <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
+                      <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
+                    </div>
+                  </div>
+                  <h5 class="fw-bold my-2" style="color: #050a52;">Event One</h5>    
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
+                    <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
+                      <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
+                    </div>
+                  </div>
+                  <h5 class="fw-bold my-2" style="color: #050a52;">Event Two</h5>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div class="banner bg-image rounded-3" style="background-image: url('assets/images/image004.jpg')">
+                    <div class="banner-text bg-white text-center m-3 px-3 py-2 rounded-3 ">
+                      <h4 style="color: #1c2bf3;" class="fw-bold fs-6">ON DEMAND</h4>
+                    </div>
+                  </div>
+                  <h5 class="fw-bold my-2" style="color: #050a52;">Event Three</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tabs body -->
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- events -->
+
+  <!-- socials -->
+  <div class="container-fluid px-5" style="margin: 0px 80px;">
+    <div class="row">
+      <p class="fs-6">Follow Faciotech
+        <i class="fa-brands fa-facebook-f mx-3"></i>
+        <i class="fa-brands fa-twitter mx-2"></i>
+        <i class="fa-brands fa-linkedin mx-2"></i>
+      </p>
+    </div>
+  </div>
+  <!-- socials -->
 
   <footer class="text-white py-4 mt-auto">
     <div class="container">

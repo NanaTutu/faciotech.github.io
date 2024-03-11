@@ -38,20 +38,7 @@
     src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
   }
   
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    color: black;
-    font-family: 'Segoe UI', Arial, sans-serif;
-  }
-  
-  .wrapper {
-    margin: 0 350px;
-  }
+
   
   p {
     font-family: 'Segoe UI', Arial, sans-serif;
