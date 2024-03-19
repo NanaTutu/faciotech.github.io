@@ -106,6 +106,7 @@ h5 span {
   font-family: 'Segoe UI', Arial, sans-serif;
 }
 
+
 .carousel_slide {
   overflow: hidden;
   position: relative;
@@ -150,6 +151,11 @@ h5 span {
 
 .carousel-caption {
   z-index: 20;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: left;
   /* Ensure captions are displayed above the overlay */
 }
 
@@ -194,10 +200,6 @@ h5 span {
   /* Adjust as needed */
 }
 
-/* .join_us{
-    background-color: white;
-    color: #00afef;
-  } */
 
 .sponsors img {
   height: 10rem;
@@ -206,6 +208,14 @@ h5 span {
 
 footer {
   background-color: #f2f2f2;
+}
+
+.dropdown-menu-horizontal {
+  min-width: 40rem;
+}
+
+.overflow-wrap {
+  white-space: normal;
 }
 
 /* Contact Us Page*/
@@ -217,8 +227,9 @@ footer {
   position: relative;
 }
 
-.tech-bill {
-  background-color: #f2f2f2;
+.technical_billings{
+  padding: 20px 213px;
+  margin: 30px 0;
 }
 
 .banner-text {
@@ -242,7 +253,7 @@ footer {
 /* career */
 
 .dropdown-menu-horizontal {
-  min-width: 70rem;
+  min-width: 40rem;
 }
 
 .overflow-wrap {
@@ -468,8 +479,147 @@ a.visit {
   text-align: justify; 
 }
 
+.events{
+  padding: 120px 0;
+}
 
-@media only screen and (max-width: 481px) {
+.events-container {
+  min-width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0 120px;
+}
+
+.tab-wrapper{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1 );
+  background-color: #fff;
+}
+
+.tab-header{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.tab-header .tab-btn{
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.tab-header .tab-btn:hover,
+.tab-header .tab-btn.active{
+  color: #0067B8;  
+}
+
+.tab-header .underline{
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  transition: all 0.3s;
+  background-color:  #0067B8;
+}
+
+.tab-body{
+  display: flex;
+  overflow: hidden;
+}
+
+.tab-body .tab-content{
+  min-width: 100%;
+  padding: 20px;
+  font-size: 12px;
+  transition: all 0.3s;
+  text-align: justify; 
+}
+
+
+/* RESPONSIVENESS */
+
+/* extra-small screens */
+@media (max-width: 575.98px) {
+  .wrapper {
+    margin: 0 0rem;
+  }
+
+  .technical_billings{
+    padding: 10px 20px;
+    margin: 5px 0;
+  }
+
+  .help{
+    margin: 0 0;
+  }
+
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 15rem;
+    /* Set the height of the carousel to 500px */
+  }
+
+  .contact-form {
+    font-family: 'Segoe UI', Arial, sans-serif;
+  }
+
+  .dropdown-menu .dropdown-item .col-md-3 h6,
+  .dropdown-menu .dropdown-item .col-md-3 p {
+    display: none;
+  }
+
+  .vertical-text {
+    /* Reset text orientation to horizontal */
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    transform: none; /* Reset transform */
+    white-space: normal; /* Allow text to wrap */
+  }
+
+  .dd-link-res{
+    padding: 0;
+  }
+
+  a.visit{
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+  .order-md-1 {
+    order: 2;
+  }
+  .order-md-2 {
+    order: 1;
+  }
+}
+
+/* small screens */
+@media (min-width: 576px) and (max-width: 768px){
+  .wrapper {
+    margin: 0 0rem;
+  }
+
+  .technical_billings{
+    padding: 10px 20px;
+    margin: 5px 0;
+  }
+
+  .help{
+    margin: 0 0;
+  }
+
   .wrapper {
     margin: 0 0rem;
   }
@@ -507,45 +657,26 @@ a.visit {
     font-weight: normal;
   }
 
+  .order-md-1 {
+    order: 2;
+  }
+  .order-md-2 {
+    order: 1;
+  }
 }
 
-@media only screen and (max-width: 769px) {
+/* medium screens */
+@media (min-width: 768px) and (max-width: 992px) {
   .wrapper {
     margin: 0 0rem;
   }
 
-  .carousel_slide {
-    overflow: hidden;
-    position: relative;
-    height: 15rem;
-    /* Set the height of the carousel to 500px */
+  .technical_billings{
+    padding: 10px 20px;
+    margin: 5px 0;
   }
 
-  .dropdown-menu .dropdown-item .col-md-3 h6,
-  .dropdown-menu .dropdown-item .col-md-3 p {
-    display: none;
-  }
-
-  .vertical-text {
-    /* Reset text orientation to horizontal */
-    writing-mode: horizontal-tb;
-    text-orientation: mixed;
-    transform: none; /* Reset transform */
-    white-space: normal; /* Allow text to wrap */
-  }
-
-  .dd-link-res{
-    padding: 0;
-  }
-
-  a.visit{
-    text-decoration: none;
-    font-weight: normal;
-  }
-}
-
-@media only screen and (max-width: 1026px) {
-  .wrapper {
+  .help{
     margin: 0 0;
   }
 
@@ -577,4 +708,57 @@ a.visit {
     text-decoration: none;
     font-weight: normal;
   }
+
+  .order-md-1 {
+    order: 2;
+  }
+  .order-md-2 {
+    order: 1;
+  }
+}
+
+/* large screens */
+@media (min-width: 992px) and  (max-width: 1406px) {
+  .wrapper {
+    margin: 0 100px;
+  }
+
+  .technical_billings{
+    padding: 10px 20px;
+    margin: 5px 0;
+  }
+
+  .help{
+    margin: 30px 0;
+  }
+
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 20rem;
+    /* Set the height of the carousel to 500px */
+  }
+
+  .dropdown-menu .dropdown-item .col-md-3 h6,
+  .dropdown-menu .dropdown-item .col-md-3 p {
+    display: none;
+  }
+
+  .vertical-text {
+    /* Reset text orientation to horizontal */
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    transform: none; /* Reset transform */
+    white-space: normal; /* Allow text to wrap */
+  }
+
+  .dd-link-res{
+    padding: 0;
+  }
+
+  a.visit{
+    text-decoration: none;
+    font-weight: normal;
+  }
+
 }
