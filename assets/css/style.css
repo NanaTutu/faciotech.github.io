@@ -813,10 +813,32 @@ a.visit {
   }
 }
 
+/* Move the navigation icons to the sides */
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+    right: 0;
+}
+
+/* Adjust the vertical alignment if needed */
+.owl-prev, .owl-next {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Style the navigation icons as needed */
+.owl-prev, .owl-next {
+    /* Your custom styles */
+    font-size: smaller;
+}
+
+
 /* large screens */
 @media (min-width: 992px) and  (max-width: 1406px) {
   .wrapper {
-    margin: 0 100px;
+    margin: 0 75px;
   }
 
   .technical_billings{
