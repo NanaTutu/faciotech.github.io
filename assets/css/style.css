@@ -161,6 +161,7 @@ h5 span {
 
 .empower {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .empower span {
@@ -168,6 +169,7 @@ h5 span {
   font-style: normal;
   font-size: 34px;
   line-height: 40px;
+  text-align: center;
   color: black;
 }
 
@@ -217,6 +219,8 @@ footer {
   padding: 60px 0 10px 0;
   align-items: center;
   justify-content: center;
+  padding: 50px 75px;
+  /* text-align: center; */
 }
 
 .dropdown-menu-horizontal {
@@ -430,11 +434,9 @@ a.visit {
   margin: auto;
   align-items: center;
   justify-content: center;
-  /* padding: 0 120px; */
 }
 
 .tab-wrapper{
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1 ); */
   background-color: #fff;
 }
 
@@ -444,7 +446,6 @@ a.visit {
   align-items:baseline;
   justify-content: center;
   width: 100%; 
-  /* border-bottom: 1px solid #e5e5e5; */
 }
 
 .tab-header .tab-btn{
@@ -497,7 +498,7 @@ a.visit {
   margin: auto;
   align-items: center;
   justify-content: center;
-  padding: 0 120px;
+  /* padding: 0 120px; */
 }
 
 .tab-wrapper{
@@ -652,6 +653,14 @@ a.visit {
   background: #265df2;
 }
 
+.grant img{
+  height: 480px;
+}
+
+.callback-form{
+  margin: 0 500px;
+}
+
 /* RESPONSIVENESS */
 
 /* extra-small screens */
@@ -666,6 +675,12 @@ a.visit {
   }
 
   .empower .empower_facio {
+    padding: 0 0;
+  }
+  .empower span {
+    text-align: left;
+  }
+  .empower{
     text-align: left;
   }
   
@@ -674,6 +689,10 @@ a.visit {
   }
   .catalyst h2 {
     font-size: 28px;
+  }
+
+  .grant img{
+    height: 300px;
   }
 
   .help{
@@ -719,6 +738,15 @@ a.visit {
   .order-md-2 {
     order: 1;
   }
+
+  .callback-form{
+    margin: 0 0;
+  }
+
+  footer {
+    padding: 50px 0;
+    /* text-align: center; */
+  }
 }
 
 /* small screens */
@@ -729,6 +757,13 @@ a.visit {
 
   .empower .empower_facio {
     text-align: left;
+    padding: 0;
+  }
+  .empower span {
+    text-align: left;
+  }
+  .empower{
+    text-align: left;
   }
 
   .catalyst{
@@ -736,6 +771,9 @@ a.visit {
   }
   .catalyst > h2{
     font-size: 28px;
+  }
+  .grant img{
+    height: 300px;
   }
 
   .technical_billings{
@@ -789,6 +827,15 @@ a.visit {
   }
   .order-md-2 {
     order: 1;
+  }
+
+  .callback-form{
+    margin: 0 0;
+  }
+
+  footer {
+    padding: 50px 0;
+    /* text-align: center; */
   }
 }
 
