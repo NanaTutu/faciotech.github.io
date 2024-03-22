@@ -158,6 +158,32 @@ h5 span {
   text-align: left;
   /* Ensure captions are displayed above the overlay */
 }
+.carousel-caption h6{
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 56px;
+  font-style: normal;
+}
+.carousel-caption p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  font-style: normal;
+  color: white !important;
+}
+.carousel-caption button{
+  background-color: white;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+}
+.carousel-caption a{
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  text-decoration: none;
+  color: white;
+}
 
 .empower {
   font-size: 1.5rem;
@@ -183,7 +209,7 @@ h5 span {
 
 .catalyst {
   background-color: #0067B8;
-  margin: 100px 0;
+  margin: 170px 0;
   padding: 80px 0;
 }
 .catalyst h2{
@@ -657,9 +683,13 @@ a.visit {
   height: 480px;
 }
 
-.callback-form{
-  margin: 0 500px;
+.leadership img{
+
 }
+.leadership-profile img{
+  height: 400px;
+}
+
 
 /* RESPONSIVENESS */
 
@@ -667,6 +697,16 @@ a.visit {
 @media (max-width: 575.98px) {
   .wrapper {
     margin: 0 0rem;
+  }
+
+  .carousel-caption {
+    z-index: 20;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    /* Ensure captions are displayed above the overlay */
   }
 
   .technical_billings{
@@ -845,6 +885,37 @@ a.visit {
     margin: 0 0rem;
   }
 
+  .carousel-caption h6{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 28px;
+    font-style: normal;
+  }
+  .carousel-caption p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    color: white !important;
+  }
+  .carousel-caption button{
+    background-color: white;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .carousel-caption a{
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    text-decoration: none;
+    color: white;
+  }
+  .leadership-profile img,
+  .board-profile img{
+    height: 250px;
+  }
+
   .technical_billings{
     padding: 10px 20px;
     margin: 5px 0;
@@ -923,6 +994,16 @@ a.visit {
 @media (min-width: 992px) and  (max-width: 1406px) {
   .wrapper {
     margin: 0 75px;
+  }
+
+  .carousel-caption h6{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 28px;
+    font-style: normal;
+  }
+  .carousel-caption p{
+    color: white !important;
   }
 
   .technical_billings{
