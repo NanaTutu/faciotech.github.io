@@ -237,7 +237,10 @@ h5 span {
 
 .sponsors img {
   height: 10rem;
-  width: 20rem;
+  width: 10rem;
+}
+.sponsors .col-auto{
+  margin: 0 50px;
 }
 
 footer {
@@ -737,7 +740,10 @@ a.visit {
 
   .sponsors img {
     height: 5rem;
-    width: 10rem;
+    width: 5rem;
+  }
+  .sponsors .col-auto{
+    margin: 0 0;
   }
 
   .help{
@@ -895,8 +901,8 @@ a.visit {
 @media (min-width: 768px) and (max-width: 1166px) {
 
   .sponsors img {
-    height: 7rem;
-    width: 10rem;
+    height: 5rem;
+    width: 5rem;
   }
   
   .wrapper {
