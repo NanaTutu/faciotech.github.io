@@ -739,8 +739,8 @@ a.visit {
   }
 
   .sponsors img {
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
   }
   .sponsors .col-auto{
     margin: 0 0;
@@ -847,6 +847,10 @@ a.visit {
     width: 5rem;
   }
 
+  .sponsors .col-auto{
+    margin: 0 0;
+  }
+
   .carousel_slide {
     overflow: hidden;
     position: relative;
@@ -903,6 +907,9 @@ a.visit {
   .sponsors img {
     height: 5rem;
     width: 5rem;
+  }
+  .sponsors .col-auto{
+    margin: 0 0;
   }
   
   .wrapper {
@@ -1017,8 +1024,12 @@ a.visit {
 /* large screens */
 @media (min-width: 992px) and  (max-width: 1406px) {
   .sponsors img {
-    height: 10rem;
-    width: 20rem;
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .sponsors .col-auto{
+    margin: 0 0;
   }
   .wrapper {
     margin: 0 75px;
