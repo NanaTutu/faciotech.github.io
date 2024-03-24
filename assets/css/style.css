@@ -237,11 +237,11 @@ h5 span {
 
 .sponsors img {
   height: 10rem;
-  width: 10rem;
+  width: 20rem;
 }
-.sponsors .col-auto{
+/* .sponsors .col-auto{
   margin: 0 50px;
-}
+} */
 
 footer {
   background-color: #f2f2f2;
