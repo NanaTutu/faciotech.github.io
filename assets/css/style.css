@@ -693,6 +693,10 @@ a.visit {
   height: 400px;
 }
 
+.catalyst-sub-text{
+  padding: 0 300px;
+}
+
 
 /* RESPONSIVENESS */
 
@@ -710,6 +714,9 @@ a.visit {
     transform: translate(-50%, -50%);
     text-align: left;
     /* Ensure captions are displayed above the overlay */
+  }
+  .catalyst-sub-text{
+    padding: 0 5px;
   }
 
   .technical_billings{
@@ -819,9 +826,7 @@ a.visit {
     text-align: left;
   }
 
-  .catalyst{
-    background-color: red;
-  }
+
   .catalyst > h2{
     font-size: 28px;
   }
@@ -899,6 +904,10 @@ a.visit {
     padding: 50px 0;
     /* text-align: center; */
   }
+
+  .catalyst-sub-text{
+    padding: 0 5px;
+  }
 }
 
 /* medium screens */
@@ -910,6 +919,10 @@ a.visit {
   }
   .sponsors .col-auto{
     margin: 0 0;
+  }
+
+  .catalyst-sub-text{
+    padding: 0 5px;
   }
   
   .wrapper {
