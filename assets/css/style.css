@@ -235,10 +235,7 @@ h5 span {
 }
 
 
-.sponsors img {
-  height: 10rem;
-  width: 20rem;
-}
+
 /* .sponsors .col-auto{
   margin: 0 50px;
 } */
@@ -697,6 +694,54 @@ a.visit {
   padding: 0 300px;
 }
 
+.donation-tab{
+  padding: 0 100px;
+}
+
+.donation-content .col-auto {
+  background-color: #0067B8;
+  padding: 5px 70px;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+  margin: 10px 15px;
+}
+.donation-content .text-input {
+  padding: 0 0;
+  width: 180px;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+  margin: 10px 15px;
+  background-color: transparent;
+}
+.donation-content .text-input input{
+  padding: 11px 5px;
+}
+
+.vision{
+  margin: 20px 30px 20px 0px; 
+  padding: 20px 50px; 
+}
+.mission{
+  margin: 20px 30px; 
+  padding: 20px 50px;
+}
+
+.main-body{
+  
+
+  /* Set other styles as needed */
+}
+.main-body img{
+  height: 300px;
+}
+
+.sponsors img {
+  height: 10rem;
+  width: 20rem;
+}
+
 
 /* RESPONSIVENESS */
 
@@ -704,6 +749,10 @@ a.visit {
 @media (max-width: 575.98px) {
   .wrapper {
     margin: 0 0rem;
+  }
+
+  .main-body img{
+    height: 200px;
   }
 
   .carousel-caption {
@@ -717,6 +766,39 @@ a.visit {
   }
   .catalyst-sub-text{
     padding: 0 5px;
+  }
+
+  .vision{
+    margin: 20px 0; 
+    padding: 10px 10px; 
+  }
+  .mission{
+    margin: 20px 0; 
+    padding: 10px 10px;
+  }
+
+  .donation-tab{
+    padding: 0 0px;
+  }
+  .donation-content .col-auto {
+    background-color: #0067B8;
+    padding: 5px 40px;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    margin: 10px 15px;
+  }
+  .donation-content .text-input {
+    padding: 0 0;
+    width: 120px;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    margin: 10px 15px;
+    background-color: transparent;
+  }
+  .donation-content .text-input input{
+    padding: 10px 5px;
   }
 
   .technical_billings{
@@ -929,6 +1011,30 @@ a.visit {
     margin: 0 0rem;
   }
 
+  .donation-tab{
+    padding: 0 0px;
+  }
+  .donation-content .col-auto {
+    background-color: #0067B8;
+    padding: 5px 40px;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    margin: 10px 15px;
+  }
+  .donation-content .text-input {
+    padding: 0 0;
+    width: 120px;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    margin: 10px 15px;
+    background-color: transparent;
+  }
+  .donation-content .text-input input{
+    padding: 10px 5px;
+  }
+
   .carousel-caption h6{
     font-weight: 600;
     font-size: 26px;
@@ -1037,8 +1143,9 @@ a.visit {
 /* large screens */
 @media (min-width: 992px) and  (max-width: 1406px) {
   .sponsors img {
-    height: 5rem;
-    width: 5rem;
+    height: 8rem;
+    width: 8rem;
+    margin: 0 10px;
   }
 
   .sponsors .col-auto{
