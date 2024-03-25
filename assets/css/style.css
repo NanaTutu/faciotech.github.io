@@ -742,6 +742,21 @@ a.visit {
   width: 20rem;
 }
 
+/* .stats{
+  background-color: red;
+}
+.stats .card-title{
+  background-color: yellow;
+}
+.stats .card-text{
+  background-color: green;
+} */
+
+.stats .col-md-2 {
+  flex: 1 1 20%;
+  margin: 10px;
+}
+
 
 /* RESPONSIVENESS */
 
@@ -804,6 +819,9 @@ a.visit {
   .technical_billings{
     padding: 10px 20px;
     margin: 5px 0;
+  }
+  .stats .col-md-2 {
+    flex: 1 1 100%;
   }
 
   
@@ -908,6 +926,9 @@ a.visit {
     text-align: left;
   }
 
+  .stats .col-md-2 {
+    flex: 1 1 100%;
+  }
 
   .catalyst > h2{
     font-size: 28px;
@@ -1007,6 +1028,14 @@ a.visit {
     padding: 0 5px;
   }
   
+  .vision{
+    margin: 20px 10px; 
+    padding: 10px 10px; 
+  }
+  .mission{
+    margin: 20px 0; 
+    padding: 10px 10px;
+  }
   .wrapper {
     margin: 0 0rem;
   }
@@ -1145,6 +1174,70 @@ a.visit {
   .sponsors img {
     height: 8rem;
     width: 8rem;
+    margin: 0 10px;
+  }
+
+  .sponsors .col-auto{
+    margin: 0 0;
+  }
+  .wrapper {
+    margin: 0 75px;
+  }
+
+  .carousel-caption h6{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 28px;
+    font-style: normal;
+  }
+  .carousel-caption p{
+    color: white !important;
+  }
+
+  .technical_billings{
+    padding: 10px 20px;
+    margin: 5px 0;
+  }
+
+  .help{
+    margin: 30px 0;
+  }
+
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 20rem;
+    /* Set the height of the carousel to 500px */
+  }
+
+  .dropdown-menu .dropdown-item .col-md-3 h6,
+  .dropdown-menu .dropdown-item .col-md-3 p {
+    display: none;
+  }
+
+  .vertical-text {
+    /* Reset text orientation to horizontal */
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    transform: none; /* Reset transform */
+    white-space: normal; /* Allow text to wrap */
+  }
+
+  .dd-link-res{
+    padding: 0;
+  }
+
+  a.visit{
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+}
+
+@media (min-width: 1406px) and  (max-width: 1680px) {
+  .sponsors img {
+    height: 7rem;
+    width: 7rem;
     margin: 0 10px;
   }
 
