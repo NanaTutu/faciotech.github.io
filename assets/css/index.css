@@ -1,0 +1,263 @@
+.wrapper{
+    margin: 0 75px;
+}
+
+.section-one,
+.section-two,
+.section-four,
+.section-five,
+.section-six,
+.section-seven,
+.section-eight,
+.section-nine,
+.section-ten,
+.socials{
+    margin: 50px 0;
+}
+
+.words-of-commitment{
+    margin: 60px 0;
+  }
+
+  .empower {
+    text-align: center;
+  }
+  
+  .empower span {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+  }
+  
+  .empower .empower_facio {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: normal;
+    margin: 10px 0;
+  }
+
+  .section-two .row .card-body,
+  .section-four .row .card-body {
+    margin: 20px 0;
+  }
+
+  .catalyst {
+    background-color: #0067B8;
+    margin: 100px 0;
+    padding: 80px 0;
+  }
+
+  .events{
+    padding: 0 0;
+  }
+
+  .events-container {
+    min-width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tab-wrapper{
+    background-color: #fff;
+  }
+
+  .tab-header{
+    position: relative;
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+    width: 100%; 
+  }
+
+  .tab-header .tab-btn{
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+
+  .tab-header .tab-btn:hover,
+.tab-header .tab-btn.active{
+  color: rgba(0, 0, 0, 0.8);  
+}
+
+.tab-header .underline{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    transition: all 0.3s;
+    background-color:  #0067B8;
+  }
+
+  .tab-body{
+    display: flex;
+    overflow: hidden;
+  }
+
+  .tab-body .tab-content{
+    min-width: 100%;
+    padding: 20px;
+    font-size: 12px;
+    transition: all 0.3s;
+    text-align: justify; 
+  }
+
+  .events{
+    padding: 120px 0;
+  }
+
+  /*  */
+  .events-container {
+    min-width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 120px; */
+  }
+ 
+.tab-wrapper{
+    background-color: #fff;
+  }
+
+  .tab-header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .tab-header .tab-btn{
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+
+  .tab-header .tab-btn:hover,
+.tab-header .tab-btn.active{
+  color: #0067B8;  
+}
+
+.tab-header .underline{
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    transition: all 0.3s;
+    background-color:  #0067B8;
+  }
+
+  .tab-body{
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .tab-body .tab-content{
+    min-width: 100%;
+    padding: 20px;
+    font-size: 12px;
+    transition: all 0.3s;
+    text-align: justify; 
+  }
+
+  .sponsors img {
+    height: 10rem;
+    width: 20rem;
+  }
+
+  footer {
+    background-color: #f2f2f2;
+    padding: 60px 0 10px 0;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 75px;
+    /* text-align: center; */
+  }
+  footer img{
+    height: 50px !important;
+  }
+
+  /* responsive */
+
+  /* mobile */
+  @media(max-width: 425px){
+    .wrapper{
+        margin: 0 5px;
+    }
+
+    .carousel_slide {
+        overflow: hidden;
+        position: relative;
+        height: 15rem;
+        /* Set the height of the carousel to 500px */
+      }
+
+      .empower span {
+        text-align: left;
+        font-size: 20px;
+        line-height: normal;
+      }
+      .empower{
+        text-align: left;
+      }
+    
+    footer{
+        padding: 50px 0;
+    /* text-align: center; */
+    }
+  }
+  /* mobile */
+
+/* tablet */
+@media(min-width: 426px) and (max-width: 768px){
+    .wrapper{
+        margin: 0 5px;
+    }
+
+    footer{
+      padding: 50px 0;
+  /* text-align: center; */
+    }
+  }
+  /* tablet */
+
+  /* laptop */
+  @media(min-width: 769px) and (max-width: 1024px){
+    .wrapper{
+        margin: 0 30px;
+    }
+
+    .section-five img{
+        height: 200px;
+    }
+
+    footer{
+        padding: 50px 0;
+    }
+    
+  }
+  /* laptop */
+
+  /* responsive */
