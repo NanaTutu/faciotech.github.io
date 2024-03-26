@@ -225,7 +225,8 @@
       }
 
     .section-three p,
-    .section-eight p{
+    .section-eight p,
+    .section-six p{
       padding: 0 20px;
       text-align: center;
     }
