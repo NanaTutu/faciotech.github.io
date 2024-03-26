@@ -67,11 +67,15 @@
     height: 300px;
   }
 
-  h4,h5{
+  h1,h2,h3,h4,h5{
     font-weight: 600; 
     font-style: normal; 
     font-size: 20px; 
     line-height: 24px;
+  }
+
+  .text-justify{
+    text-align: justify;
   }
   
   .btn,
@@ -213,4 +217,23 @@
     white-space: normal;
   }
   
+  /* responsive */
+  @media(min-width: 425px) and (max-width: 768px){
+    .carousel-caption h6{
+      font-weight: 600;
+      font-size: 23px;
+      line-height: normal;
+      font-style: normal;
+    }
+  }
+
+  @media(min-width: 769px) and (max-width: 1024px){
+    .carousel-caption h6{
+      font-weight: 600;
+      font-size: 26px;
+      line-height: normal;
+      font-style: normal;
+    }
+  }
+  /* responsive */
   

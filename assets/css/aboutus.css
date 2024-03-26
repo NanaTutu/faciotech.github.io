@@ -108,12 +108,46 @@
   /* mobile */
 
   /* tablet */
-  @media(min-width: 425px) and (max-width: 768){
+  @media(min-width: 425px) and (max-width: 768px){
     .wrapper{
-        background-color: red;
+        margin: 0 5px;
+    }
+
+    .section-two .stats div{
+      width: 15%;
+    }
+
+    .section-four img{
+      height: 200px;
+    }
+
+    .section-five img{
+      height: 100px;
+    }
+
+    footer{
+      padding: 50px 0;
+  /* text-align: center; */
     }
   }
   /* tablet */
+
+  /* laptop */
+  @media(min-width: 768px) and (max-width: 1024px){
+    .wrapper{
+        margin: 0 30px;
+    }
+
+    .section-five img{
+        height: 200px;
+    }
+
+    footer{
+        padding: 50px 0;
+    }
+    
+  }
+  /* laptop */
 
   /* responsive */
 
