@@ -1,0 +1,216 @@
+@font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-Regular.eot');
+    src: url('fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
+      url('fonts/fira/woff2/FiraSans-Regular.woff2') format('woff2'),
+      url('fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
+      url('fonts/fira/woff2/FiraSans-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+  }
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    font-family: 'Segoe Ui', Arial, Helvetica, sans-serif;
+  }
+
+  p{
+    font-weight: 400; 
+    font-style: normal; 
+    font-size: 15px; 
+    line-height: normal;
+  }
+
+  a{ 
+    font-style: normal; 
+    font-size: 15px; 
+    line-height: 19px; 
+    color: rgb(0, 93, 166); 
+    text-decoration: none;
+  }
+
+  img{
+    height: 300px;
+  }
+
+  h4,h5{
+    font-weight: 600; 
+    font-style: normal; 
+    font-size: 20px; 
+    line-height: 24px;
+  }
+  
+  .btn,
+  .form-control {
+    border-radius: 0;
+  }
+  
+  .navbar-brand img {
+    height: 2rem;
+  }
+  
+  .nav-item a {
+    font-size: 0.9rem;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 20px;
+    /* Adjust as needed */
+  }
+  
+  .btn-donate {
+    text-decoration: none;
+    border: 1px solid black;
+    /* Keep the border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: text-decoration 0.3s ease;
+    font-size: 0.9rem;
+  }
+  
+  .btn-donate:hover {
+    text-decoration: underline;
+    border-color: black;
+    /* Keep the border color transparent */
+    color: inherit;
+    /* To prevent color change on hover */
+  }
+  
+  h5 span {
+    color: #00afef;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Arial, sans-serif;
+  }
+  
+  
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 30rem;
+    /* Set the height of the carousel to 500px */
+  }
+  
+  .carousel-inner {
+    width: 100%;
+    height: 100%;
+    /* Ensure the carousel inner takes full height of the parent carousel */
+  }
+  
+  .carousel-item {
+    height: 100%;
+    /* Set the height of each carousel item to 100% */
+  }
+  
+  .carousel-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the entire area */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust opacity as needed */
+    z-index: 1;
+  }
+  
+  .carousel-caption {
+    z-index: 20;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    /* Ensure captions are displayed above the overlay */
+  }
+  .carousel-caption h6{
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 56px;
+    font-style: normal;
+  }
+  .carousel-caption p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    color: white !important;
+  }
+  .carousel-caption button{
+    background-color: white;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .carousel-caption a{
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .dropdown-menu-horizontal {
+    min-width: 40rem;
+  }
+  
+  .overflow-wrap {
+    white-space: normal;
+  }
+  
+  /* career */
+  
+  .dropdown-menu-horizontal {
+    min-width: 40rem;
+  }
+  
+  .overflow-wrap {
+    white-space: normal;
+  }
+  
+  
