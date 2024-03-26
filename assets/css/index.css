@@ -41,7 +41,8 @@
   }
 
   .section-two .row .card-body,
-  .section-four .row .card-body {
+  .section-four .row .card-body,
+  .section-seven .row .card-body {
     margin: 20px 0;
   }
 
@@ -222,6 +223,17 @@
       .empower{
         text-align: left;
       }
+
+    .section-three p,
+    .section-eight p{
+      padding: 0 20px;
+      text-align: center;
+    }
+    
+    .section-nine img{
+      height: 100px;
+      width: 100px;      
+    }
     
     footer{
         padding: 50px 0;
@@ -234,6 +246,38 @@
 @media(min-width: 426px) and (max-width: 768px){
     .wrapper{
         margin: 0 5px;
+    }
+
+    .carousel_slide {
+      overflow: hidden;
+      position: relative;
+      height: 20rem;
+      background-color: red;
+      /* Set the height of the carousel to 500px */
+    }
+
+    .carousel_slide .carousel-inner img{
+      height: 20rem;
+    }
+
+    .section-four .row img{
+      height: 200px;
+    }
+
+    .section-five .events-container .tab-body .row .col-md-6{
+      align-content: center;
+    }
+
+    .section-nine img{
+      height: 100px;
+      width: 100px;
+      margin: 0 10px;      
+    }
+
+    .section-three p,
+    .section-eight p{
+      padding: 0 80px;
+      text-align: center;
     }
 
     footer{
@@ -249,8 +293,16 @@
         margin: 0 30px;
     }
 
-    .section-five img{
-        height: 200px;
+    .section-three p,
+    .section-eight p{
+      padding: 0 150px;
+      text-align: center;
+    }
+
+    .section-nine img{
+      height: 120px;
+      width: 120px;
+      margin: 0 20px;      
     }
 
     footer{
@@ -259,5 +311,19 @@
     
   }
   /* laptop */
+
+  @media(min-width: 1025px) and (max-width: 1440px){
+    .section-three p,
+    .section-eight p{
+      padding: 0 200px;
+      text-align: center;
+    }
+    
+    .section-nine img{
+      height: 150px;
+      width: 150px;
+      margin: 0 20px;      
+    }
+  }
 
   /* responsive */
