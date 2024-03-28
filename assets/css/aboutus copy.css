@@ -138,20 +138,18 @@
   }
 
   /* responsive */
-/* For very small screens (e.g., older smartphones, budget devices) */
-@media only screen and (min-width: 200px) and (max-width: 320px) {
+
+  /* mobile */
+  
+@media(min-width: 200px) and (max-width:320px){
   .wrapper{
     margin: 0 5px;
   }
 }
 
-/* For small to medium-sized screens (e.g., some older iPhones, smaller Android devices) */
-@media only screen and (min-width: 321px) and (max-width: 480px) {
- .wrapper{
-    margin: 5px;
- }
+@media(min-width: 321px) and (max-width:375px){
 
- .banner{
+  .banner{
     align-items: center;
     justify-content: center;
   }
@@ -161,6 +159,10 @@
     padding: 20px;
     color: white;
     text-align: center;
+  }
+  
+  .wrapper{
+    margin: 0 5px;
   }
 
   .section-two .col-md-9,
@@ -179,7 +181,7 @@
     font-size: 12px;    
   }
 
-  .section-three .heading{
+   .section-three .heading{
     text-align: center;
   }
 
@@ -208,112 +210,137 @@
     padding: 50px 0;
 /* text-align: center; */
   }
-
 }
 
-/* For medium-sized screens (e.g., standard smartphones) */
-@media only screen and (min-width: 481px) and (max-width: 640px) {
+@media(min-width: 376px) and (max-width:425px){
   .banner{
+    align-items: center;
     justify-content: center;
-}
-.banner div {
+  }
+  .banner div {
     position: relative; /* Ensure the text container is positioned relative */
     padding: 20px;
     color: white;
     text-align: center;
-} 
+  }
+
   .wrapper{
-    margin: 30px;
+    margin: 0 5px;
   }
 
-  .section-one .row img{
-    height: 200px;
-  }
-
-  .section-two .row{
+  .section-two .col-md-9,
+  .section-two .col-md-3{
     text-align: center;
   }
+  .section-two .stats{
+    justify-content: start;
+    align-items: start;
+  }
+
   .section-two .stats div{
     margin: 0 5px;
   }
+  /* .section-two .stats h5,
+  .section-two .stats p{
+    font-size: 12px;    
+  } */
+  /* .section-two .col-lg-2{
+    margin: 0 0;
+  } */
 
   .section-three .heading{
     text-align: center;
-    margin: 20px 0;
+  }
+
+  .section-four .heading{
+    text-align: center;
+  }
+
+  .section-five .heading{
+    text-align: center;
   }
 
   .section-five .row img{
     height: 200px;
   }
 
-  .section-three .heading,
-  .section-four .heading,
-  .section-five .heading{
+  .section-six .row .card-body h5{
     text-align: center;
-    margin: 20px 0;
   }
+
+  footer{
+    padding: 50px 0;
+/* text-align: center; */
+  } 
 }
+  /* mobile */
 
-/* For larger screens (e.g., phablets) */
-@media only screen and (min-width: 641px) and (max-width: 800px) {
-  .wrapper{
-    margin: 30px;
+  /* tablet */
+  @media(min-width: 426px) and (max-width:650px){
+    .wrapper{
+      margin: 30px;
+    }
+
+    .section-one .row img{
+      height: 200px;
+    }
+
+    .section-two .row{
+      text-align: center;
+    }
+    .section-two .stats div{
+      margin: 0 5px;
+    }
+
+    .section-three .heading{
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .section-five .row img{
+      height: 200px;
+    }
+
+    .section-three .heading,
+    .section-four .heading,
+    .section-five .heading{
+      text-align: center;
+      margin: 20px 0;
+    }
+
   }
 
-  .section-two .row{
-    text-align: center;
-  }
+  @media(min-width: 651px) and (max-width:850px){
+    .wrapper{
+      margin: 30px;
+    }
 
-  .section-two .stats div{
-    margin: 0 5px;
-  }
+    .section-two .row{
+      text-align: center;
+    }
 
-  .section-three .heading,
-  .section-four .heading,
-  .section-five .heading{
-    text-align: center;
-    margin: 20px 0;
-  }
+    .section-two .stats div{
+      margin: 0 5px;
+    }
 
-  .section-four .row img,
-  .section-five .row img{
-    height: 200px;
-  }
+    .section-three .heading,
+    .section-four .heading,
+    .section-five .heading{
+      text-align: center;
+      margin: 20px 0;
+    }
 
-  .section-six .row h5{
-    font-size: 16px;
-  }
-}
+    .section-four .row img,
+    .section-five .row img{
+      height: 200px;
+    }
 
-/* For extra-large screens (e.g., tablets) */
-@media only screen and (min-width: 801px) {
-  .wrapper{
-    margin: 30px;
+    .section-six .row h5{
+      font-size: 16px;
+    }
   }
+  /* tablet */
 
-  .section-two .row{
-    text-align: center;
-  }
+  /* responsive */
 
-  .section-two .stats div{
-    margin: 0 5px;
-  }
 
-  .section-three .heading,
-  .section-four .heading,
-  .section-five .heading{
-    text-align: center;
-    margin: 20px 0;
-  }
-
-  .section-four .row img,
-  .section-five .row img{
-    height: 200px;
-  }
-
-  .section-six .row h5{
-    font-size: 16px;
-  }
-}
-
- /* responsive */
