@@ -145,6 +145,10 @@ footer img{
     .section-three .row h4{
         font-size: 15px;
     }
+
+    footer{
+        padding: 50px 0;
+    }
 }
   
 /* For small to medium-sized screens (e.g., some older iPhones, smaller Android devices) */
@@ -193,6 +197,10 @@ footer img{
     .section-four .row .item .board-info{
         margin: 0 15px;
     }
+
+    footer{
+        padding: 50px 0;
+    }
 }
   
 /* For medium-sized screens (e.g., standard smartphones) */
@@ -240,6 +248,10 @@ footer img{
     .section-two .row .item .leader-info,
     .section-four .row .item .board-info{
         margin: 0 15px;
+    }
+
+    footer{
+        padding: 50px 0;
     }
 }
   
