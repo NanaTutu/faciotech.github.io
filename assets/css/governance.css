@@ -1,3 +1,44 @@
+.banner {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    height: 300px;
+    background-image: url('../images/history001.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Ensure the container is positioned relative */
+  }
+  
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+  }
+  
+  .banner div {
+    position: relative; /* Ensure the text container is positioned relative */
+    padding: 20px;
+    color: white;
+  }
+  
+  .banner h1 {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .banner p {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+  }
+
 .wrapper{
     margin: 0 75px;
 }
@@ -6,8 +47,7 @@
 .section-three, 
 .section-three, 
 .section-four, 
-.section-five,
-.socials{
+.section-five{
     margin: 50px 0;
 }
 
@@ -77,117 +117,176 @@ footer img{
     height: 50px !important;
 }
 
-/* responsive */
- /* mobile */
- @media(max-width: 425px){
-    .wrapper{
-        margin: 0 5px;
+  /* responsive */
+
+/* For very small screens (e.g., older smartphones, budget devices) */
+@media only screen and (min-width: 200px) and (max-width: 320px) {
+    .banner{
+        justify-content: center;
     }
-    
-    footer{
-        padding: 50px 0;
-    /* text-align: center; */
-    }
-  }
-  /* mobile */
 
-    /* tablet */
-    @media(min-width: 426px) and (max-width: 768px){
-        .wrapper{
-            margin: 0 5px;
-        }
-        
-        .section-one .row img {
-            height: 150px;
-            width: 150px;
-        }
-
-        .section-two .leader-picture img{
-            height: 150px;
-            width: 150px;
-        }
-
-        .section-three .row img {
-            height: 250px;
-            width: 250px;
-        }
-
-        .section-four .board-picture img{
-            height: 150px;
-            width: 150px;
-        }
-
-
-        footer{
-          padding: 50px 0;
-      /* text-align: center; */
-        }
+    .banner div {
+        position: relative; /* Ensure the text container is positioned relative */
+        padding: 20px;
+        color: white;
+        text-align: center;
       }
-      /* tablet */
-
-   /* laptop */
-   @media(min-width: 769px) and (max-width: 1024px){
+    
     .wrapper{
         margin: 0 5px;
     }
-    
-    .section-one .row img {
-        height: 250px;
-        width: 250px;
-    }
 
-    .section-two .leader-picture img{
-        height: 200px;
-        width: 200px;
+    .section-one .row img,
+    .section-three .row img{
+        height: 100px;
+        width: 80px;
     }
-
-    .section-three .row img {
-        height: 250px;
-        width: 250px;
+    .section-one .row h4
+    .section-three .row h4{
+        font-size: 15px;
     }
-
-    .section-four .board-picture img{
-        height: 200px;
-        width: 200px;
-    }
-
-    footer{
-        padding: 50px 0;
-    }
-    
-  }
-  /* laptop */
+}
   
-     /* laptop */
-     @media(min-width: 1025px) and (max-width: 1440px){
-        .wrapper{
-            margin: 0 5px;
-        }
-        
-        .section-one .row img {
-            height: 300px;
-            width: 300px;
-        }
+/* For small to medium-sized screens (e.g., some older iPhones, smaller Android devices) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .banner{
+        justify-content: center;
+    }
+
+    .banner div {
+        position: relative; /* Ensure the text container is positioned relative */
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
     
-        .section-two .leader-picture img{
-            height: 250px;
-            width: 250px;
-        }
+    .wrapper{
+        margin: 0 5px;
+    } 
     
-        .section-three .row img {
-            height: 300px;
-            width: 300px;
-        }
+    .section-one .row img,
+    .section-three .row img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .section-two .row img,
+    .section-four .row img{
+        width: 150px;
+        height: 150px;
+        float: left;
+    }
+
+    .section-two .row .leader-picture,
+    .section-four .row .board-picture{
+        margin: 20px 0;
+    } 
+
+    .section-two .row .item,
+    .section-four .row .item{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .section-two .row .item .leader-info,
+    .section-four .row .item .board-info{
+        margin: 0 15px;
+    }
+}
+  
+/* For medium-sized screens (e.g., standard smartphones) */
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+    .banner{
+        justify-content: center;
+    }
+    .banner div {
+        position: relative; /* Ensure the text container is positioned relative */
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
     
-        .section-four .board-picture img{
-            height: 250px;
-            width: 250px;
-        }
+    .wrapper{
+        margin: 0 5px;
+    }
+
     
-        footer{
-            padding: 50px 0;
-        }
-        
-      }
-      /* laptop */ 
-/* responsive */
+    .section-one .row img,
+    .section-three .row img{
+        height: 200px;
+        width: 180px;
+    }
+
+    .section-two .row img,
+    .section-four .row img{
+        width: 200px;
+        height: 200px;
+        float: left;
+    }
+
+    .section-two .row .leader-picture,
+    .section-four .row .board-picture{
+        margin: 20px 0;
+    } 
+
+    .section-two .row .item,
+    .section-four .row .item{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .section-two .row .item .leader-info,
+    .section-four .row .item .board-info{
+        margin: 0 15px;
+    }
+}
+  
+/* For larger screens (e.g., phablets) */
+@media only screen and (min-width: 641px) and (max-width: 800px) {
+    .wrapper{
+        margin: 0 30px;
+    }
+
+    .section-one .row img,
+    .section-three .row img{
+        height: 300px;
+        width: 220px;
+    }
+
+    .section-two .row img,
+    .section-four .row img{
+        width: 220px;
+        height: 250px;
+    }
+}
+  
+/* For extra-large screens (e.g., tablets) */
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+    .wrapper{
+        margin: 0 30px;
+    }
+
+    .section-one .row img,
+    .section-three .row img{
+        height: 300px;
+        width: 250px;
+    }
+
+    .section-two .row img,
+    .section-four .row img{
+        width: 220px;
+        height: 250px;
+    }
+}
+
+/* For larger screens (e.g., larger laptops, desktop monitors) */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+       
+}
+
+/* For extra-large screens (e.g., large monitors, wide desktop screens) */
+@media only screen and (min-width: 1281px) {
+        /* Add your CSS rules for this breakpoint */
+}
