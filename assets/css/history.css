@@ -147,6 +147,9 @@ footer img{
     .wrapper{
         margin: 0 30px;
     }
+    footer{
+      padding: 20px 0;
+  }
   }
   
   /* For extra-large screens (e.g., tablets) */
