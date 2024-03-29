@@ -94,6 +94,7 @@
    color: #797878e6;
 }
 
+
 .section-four .board-picture img{
     height: 400px;
     width: 400px;
@@ -283,7 +284,7 @@ footer img{
     .section-one .row img,
     .section-three .row img{
         height: 300px;
-        width: 250px;
+        width: 230px;
     }
 
     .section-two .row img,
@@ -291,14 +292,39 @@ footer img{
         width: 220px;
         height: 250px;
     }
+
+    .section-two .leader-writeup p,
+    .section-two .board-writeup p{
+        text-align: justify;
+    }
 }
 
 /* For larger screens (e.g., larger laptops, desktop monitors) */
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
-       
+    .section-one .row img,
+    .section-three .row img{
+        height: 300px;
+        width: 250px;
+    }
+    
+    .section-two .leader-writeup,
+    .section-four .board-writeup{
+        width: 60%;
+        text-align: justify;
+    }
 }
 
 /* For extra-large screens (e.g., large monitors, wide desktop screens) */
 @media only screen and (min-width: 1281px) {
-        /* Add your CSS rules for this breakpoint */
+    .section-one .row img,
+    .section-three .row img{
+        height: 300px;
+        width: 270px;
+    }
+    
+    .section-two .leader-writeup,
+    .section-four .board-writeup{
+        width: 60%;
+        text-align: justify;
+    }
 }

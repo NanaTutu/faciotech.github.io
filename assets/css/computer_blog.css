@@ -31,32 +31,99 @@ footer {
   }
 
 
-/* responsive */
+  /* responsive */
+/* For very small screens (e.g., older smartphones, budget devices) */
+@media only screen and (min-width: 200px) and (max-width: 320px) {
+  
+}
 
-/* mobile */
-@media(max-width: 425px){
-    .wrapper{
-        margin: 0 5px;
-    }
-    
-    footer{
-        padding: 50px 0;
-    /* text-align: center; */
-    }
+/* For small to medium-sized screens (e.g., some older iPhones, smaller Android devices) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .wrapper{
+    margin: 0 5px;
   }
-/* mobile */
 
-/*  tablet */
-@media(min-width: 425px) and (max-width: 768px){
-    .wrapper{
-        margin: 0 5px;
-    }
-
-    footer{
-      padding: 50px 0;
-  /* text-align: center; */
-    }
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 12rem;
+    /* Set the height of the carousel to 500px */
   }
-/*  tablet */
 
-/* responsive */
+  footer{
+    padding: 50px 0;
+  }
+
+  .section-one .row h3,
+  .section-two .row h3,
+  .section-four .row .card-title,
+  .section-four .row .card-text,
+  .section-four .row .col-lg-4 .card-body{
+    text-align: center;
+  }
+}
+
+/* For medium-sized screens (e.g., standard smartphones) */
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+  .wrapper{
+    margin: 0 5px;
+  }
+
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 20rem;
+    /* Set the height of the carousel to 500px */
+  }
+
+  footer{
+    padding: 50px 0;
+  }
+
+  .section-one .row h3,
+  .section-two .row h3,
+  .section-four .row .card-title,
+  .section-four .row .card-text,
+  .section-four .row .col-lg-4 .card-body{
+    text-align: center;
+  }
+}
+
+/* For larger screens (e.g., phablets) */
+@media only screen and (min-width: 641px) and (max-width: 800px) {
+  .wrapper{
+    margin: 0 30px;
+  }
+
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 30rem;
+    /* Set the height of the carousel to 500px */
+  }
+
+  footer{
+    padding: 20px 0;
+  } 
+}
+
+/* For extra-large screens (e.g., tablets) */
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+  .wrapper{
+    margin: 0 30px;
+  }
+  
+  footer{
+    padding: 20px 0;
+  }
+}
+
+  /* For larger screens (e.g., larger laptops, desktop monitors) */
+  @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+      /* Add your CSS rules for this breakpoint */
+  }
+
+  /* For extra-large screens (e.g., large monitors, wide desktop screens) */
+  @media only screen and (min-width: 1281px) {
+      /* Add your CSS rules for this breakpoint */
+  }
