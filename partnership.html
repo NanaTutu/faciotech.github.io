@@ -18,7 +18,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="assets/css/bootnavbar.css" />
 
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/partner.css">
 
 </head>
 
@@ -128,59 +129,50 @@
       <!-- navigation -->
 
       <!-- banner -->
-      <div class="container-fluid p-0 d-flex align-items-center" style="margin-top: 15px; margin-bottom: 0px; height: 300px; background-image: url('assets/images/partnership.jpg'); background-size: cover; background-position: center;">
-        <div style="padding-left: 20px;" class="text-white mx-5">
-          <h1 style="font-style: normal; font-weight: 700; line-height: 26px; font-size: 20px;">Partnership</h1>
-          <p style="font-style: normal; font-weight: 400; line-height: 24px; font-size: 16px;">Partner with us</p>
+      <div class="container-fluid p-0 d-flex align-items-center banner">
+        <div class="background-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); backdrop-filter: blur(5px);"></div>
+        <div>
+            <h1>Partnership</h1>
+            <p>Partner with us</p>
         </div>
-      </div>
-      <!-- banner -->
+    </div>
+    <!-- banner -->
     </header>
 
-    <!-- partner options -->
-        <section style="margin: 80px 0;">
-          <div class="container-fluid py-4 pic-text">
-            <div class="row">
-              <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
-                <img src="assets/images/partnership002.jpg" alt="" class="img-fluid" style="max-width: 100%; height: auto;">
-              </div>
-              <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center px-md-5 px-sm-1">
-                <div class="pic-text_text">
-                  <h4 class="text-md-left" style="font-weight: 600; font-size: 24px; line-height: 32px; font-style: normal;">Join our global Partner Channel network </h4>
-                  <p class="fs-6 text-md-left" style="font-weight: 400; font-size: 16px; line-height: 22px; font-style: normal; color: rgb(100, 100, 100);">
-                    Our comprehensive training programs offer both formal and informal avenues for IT education. We serve a diverse audience, including students, institutions, farmers, and NGOs, empowering them with tech skills for the digital age.
-                  </p>
-                  <div>
-                    <a href="#"
-                      style="font-weight: 600; font-style: normal; font-size: 15px; line-height: 19px; color: rgb(0, 93, 166); text-decoration: none;">Get listed as partner
-                    </a>
-                    <a href="#"
-                      style="font-weight: 600; font-style: normal; font-size: 15px; line-height: 19px; color: rgb(0, 93, 166); text-decoration: none; margin: 0 50px;">Donate to a cause</a>
-                  </div>
-                </div>
+    <!-- section one -->
+    <section class="section-one">
+      <div class="container-fluid py-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12 my-2 d-flex justify-content-center align-items-center">
+            <img src="assets/images/partnership002.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+            <div>
+              <h4>Join our global Partner Channel network</h4>
+              <p>Our comprehensive training programs offer both formal and informal avenues for IT education. We serve a diverse audience, including students, institutions, farmers, and NGOs, empowering them with tech skills for the digital age.</p>
+                <a href="#">Get listed as partner</a>
+                <a href="#" class="mx-4">Donate to a cause</a>
               </div>
             </div>
           </div>
-        </section>
-    <!-- partner option -->
-
-    <!-- partner form -->
-    <section>
+      </div>
+    </section>
+    <!-- section one -->
+    
+    <!-- section two -->
+    <section class="section-two">
       <div class="container-fluid">
-        <h2 class="fs-3 fs-md-2 mb-4 mb-md-0 text-center"
-      style="font-weight: 600; font-style: normal; font-size: 34px; line-height: 40px;">Request a callback</h2>
-      <p class="text-center catalyst-e d-none d-md-block my-3"
-      style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal;">
-      Our partners make it their goal to help accelerate your mission. Take advantage of local nonprofit events and offers in your area. Learn more about our community offer and how we’re supporting nonprofits around the globe.</p>
+        <h2>Request a callback</h2>
+      <p>Our partners make it their goal to help accelerate your mission. Take advantage of local nonprofit events and offers in your area. Learn more about our community offer and how we’re supporting nonprofits around the globe.</p>
         <form action="" method="post" class="callback-form">
           <div class="row">
-            <div class="col">
+            <div class="col-lg col-md col-sm-12 my-2">
               <label for="exampleFormControlTextarea1" class="form-label">
                 <h5>Email</h5>
               </label>
               <input type="text" class="form-control" placeholder="Full Name" aria-label="Email">
             </div>
-            <div class="col">
+            <div class="col-lg col-md col-sm-12 my-2">
               <label for="exampleFormControlTextarea1" class="form-label">
                 <h5>Name</h5>
               </label>
@@ -189,13 +181,13 @@
           </div>
 
           <div class="row my-3">
-            <div class="col">
+            <div class="col-lg col-md col-sm-12 my-2">
               <label for="exampleFormControlTextarea1" class="form-label">
                 <h5>Date for Callback</h5>
               </label>
               <input type="text" class="form-control" placeholder="" aria-label="Full Name">
             </div>
-            <div class="col">
+            <div class="col-lg col-md col-sm-12 my-2">
               <label for="exampleFormControlTextarea1" class="form-label">
                 <h5>Phone</h5>
               </label>
@@ -204,7 +196,7 @@
           </div>
 
           <div class="row my-3">
-            <div class="col">
+            <div class="col-lg col-md col-sm-12 my-2">
               <label for="exampleFormControlTextarea1" class="form-label">
                 <h5>Company Name</h5>
               </label>
@@ -213,7 +205,7 @@
           </div>
 
           <div class="row my-3">
-            <div class="col">
+            <div class="col-lg col-md col-sm-12 my-2">
               <label for="exampleFormControlTextarea1" class="form-label">
                 <h5>Primary Intervention Area</h5>
               </label>
@@ -225,143 +217,144 @@
         </form>
       </div>
     </section>
-    <!-- partner form -->
+    <!-- section two -->
 
-     <!-- Socials -->
-     <div class="container-fluid socials" style="margin: 30px 0;">
-      <div class="row">
-        <p style="font-style: normal; font-weight: 400; line-height: 24px; font-size: 16px;">Follow Faciotech Foundation
-          <a href="https://www.facebook.com/faciotechfoundation"><i class="fa-brands fa-facebook-f mx-3" style="font-style: normal; font-weight: 400; line-height: 24px; font-size: 16px;"></i></a>
-          <a href="https://twitter.com/faciotechfoundation"><i class="fa-brands fa-twitter mx-2" style="font-style: normal; font-weight: 400; line-height: 24px; font-size: 16px;"></i></a>  
-          <a href="https://www.linkedin.com/company/faciotech-foundation/"><i class="fa-brands fa-linkedin mx-2" style="font-style: normal; font-weight: 400; line-height: 24px; font-size: 16px;"></i></a>
-        </p>
+    <!-- socials -->
+    <section class="socials">
+      <div class="container-fluid">
+          <div class="row">
+              <p>Follow Faciotech
+                  Foundation
+                  <a href="https://www.facebook.com/faciotechfoundation"><i class="fa-brands fa-facebook-f mx-1"
+                          style="font-style: normal; font-weight: 400; line-height: 24px; font-size: 16px;"></i></a>
+                  <a href="https://twitter.com/faciotechfoundation"><i class="bi-twitter-x mx-1"
+                          style="font-style: normal; font-weight: 400; line-height: 24px; font-size: 16px;"></i></a>
+                  <a href="https://www.linkedin.com/company/faciotech-foundation/"><i
+                          class="fa-brands fa-linkedin mx-1"
+                          style="font-style: normal; font-weight: 400; line-height: 24px; font-size: 16px;"></i></a>
+              </p>
+          </div>
       </div>
-    </div>
-     <!-- Socials -->
-
+  </section>
+  <!-- socials -->
   </div>
- 
-  <<footer>
+
+  <footer>
     <div class="container-fluid">
-      <div class="row justify-content-left align-content-start">
+        <div class="row justify-content-left align-content-start">
 
-        <div class="col-md-3 col-sm-12 d-flex flex-column align-items-start mb-4 mb-md-0">
-          <img src="assets/images/logo.png" alt="Faciotech Foundation Logo">
-          <p class="py-2" style="color: #616161;">Faciotech Foundation is committed to harnessing the potential
-            of
-            technology to create meaningful social and economic impact.</p>
+            <div class="col-md-3 col-sm-12 d-flex flex-column align-items-start mb-4 mb-md-0">
+                <img src="assets/images/logo.png" alt="Faciotech Foundation Logo">
+                <p class="py-2" style="color: #616161;">Faciotech Foundation is committed to harnessing the
+                    potential
+                    of
+                    technology to create meaningful social and economic impact.</p>
+            </div>
+
+            <div class="col-md-2 col-sm-12">
+                <h4
+                    style="font-weight: 600; font-style: normal; font-size: 15px; line-height: 20px; color: #616161;">
+                    Contact
+                    us</h4>
+                <p
+                    style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">
+                    <i class="fa-solid fa-phone my-2"></i> +233 (0) 55 313 2279 </br>
+                    <i class="fas fa-envelope my-2"></i> info@faciotech.org </br>
+                    <i class="fa-solid fa-location-dot my-2"></i> Faciotech Foundation P.O. Box GP2740, Accra,
+                    Ghana
+                </p>
+                </p>
+            </div>
+
+            <div class="col-md-3 col-sm-12 mb-4 mb-md-0">
+                <h4
+                    style="font-weight: 600; font-style: normal; font-size: 15px; line-height: 20px; color: #616161;">
+                    Donate
+                    today</h4>
+                <p
+                    style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; color: #616161;">
+                    Please
+                    help refugees in need</p>
+                <a href="donate.html" class="d-block my-3 border text-center py-2"
+                    style="width: 150px; font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; background-color: #616161; color: white;">Donate
+                    today</a>
+            </div>
+
+            <div class="col-md-2 col-sm-12 mb-4 mb-md-0">
+                <h4
+                    style="font-weight: 600; font-style: normal; font-size: 15px; line-height: 20px; color: #616161;">
+                    Useful
+                    links</h4>
+                <a href="aboutus.html" class="join_us d-block my-3"
+                    style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Who
+                    we are</a>
+                <a href="services.html" class="join_us d-block my-3"
+                    style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Services</a>
+                <a href="career.html" class="join_us d-block my-3"
+                    style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Careers</a>
+                <a href="partnership.html" class="join_us d-block my-3"
+                    style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Partner
+                    with us</a>
+                <a href="company_blog.html" class="join_us d-block my-3"
+                    style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Company
+                    News</a>
+            </div>
+
+            <div class="col-md-2 col-sm-12 mb-4 mb-md-0">
+                <h4
+                    style="font-weight: 600; font-style: normal; font-size: 15px; line-height: 20px; color: #616161;">
+                    Our
+                    Solutions</h4>
+                <a href="#" class="join_us d-block my-3"
+                    style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Ourcauseaid</a>
+                <a href="#" class="join_us d-block my-3"
+                    style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Land
+                    Tenure Thesaurus</a>
+                <a href="#" class="join_us d-block my-3"
+                    style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Susu
+                    Register</a>
+                <a href="#" class="join_us d-block my-3"
+                    style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Ancestral
+                    Lineage</a>
+                <a href="#" class="join_us d-block my-3"
+                    style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">NGO
+                    crm</a>
+            </div>
+
+
         </div>
-
-        <div class="col-md-2 col-sm-12">
-          <h4 style="font-weight: 600; font-style: normal; font-size: 15px; line-height: 20px; color: #616161;">
-            Contact
-            us</h4>
-          <p
-            style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">
-            <i class="fa-solid fa-phone my-2"></i> +233 (0) 55 313 2279 </br>
-            <i class="fas fa-envelope my-2"></i> info@faciotech.org </br>
-            <i class="fa-solid fa-location-dot my-2"></i> Faciotech Foundation P.O. Box GP2740, Accra,
-            Ghana
-          </p>
-          </p>
-        </div>
-
-        <div class="col-md-3 col-sm-12 mb-4 mb-md-0">
-          <h4 style="font-weight: 600; font-style: normal; font-size: 15px; line-height: 20px; color: #616161;">
-            Donate
-            today</h4>
-          <p
-            style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; color: #616161;">
-            Please
-            help refugees in need</p>
-          <a href="donate.html" class="d-block my-3 border text-center py-2"
-            style="width: 150px; font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; background-color: #616161; color: white;">Donate
-            today</a>
-        </div>
-
-        <div class="col-md-2 col-sm-12 mb-4 mb-md-0">
-          <h4 style="font-weight: 600; font-style: normal; font-size: 15px; line-height: 20px; color: #616161;">
-            User
-            links</h4>
-          <a href="aboutus.html" class="join_us d-block my-3"
-            style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Who
-            we are</a>
-          <a href="services.html" class="join_us d-block my-3"
-            style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Services</a>
-          <a href="career.html" class="join_us d-block my-3"
-            style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Careers</a>
-          <a href="partnership.html" class="join_us d-block my-3"
-            style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Partner
-            with us</a>
-          <a href="company_blog.html" class="join_us d-block my-3"
-            style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Company
-            News</a>
-        </div>
-
-        <div class="col-md-2 col-sm-12 mb-4 mb-md-0">
-          <h4 style="font-weight: 600; font-style: normal; font-size: 15px; line-height: 20px; color: #616161;">
-            Our
-            Solutions</h4>
-          <a href="#" class="join_us d-block my-3"
-            style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Ourcauseaid</a>
-          <a href="#" class="join_us d-block my-3"
-            style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Land
-            Tenure Thesaurus</a>
-          <a href="#" class="join_us d-block my-3"
-            style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Susu
-            Register</a>
-          <a href="#" class="join_us d-block my-3"
-            style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">Ancestral
-            Lineage</a>
-          <a href="#" class="join_us d-block my-3"
-            style="font-weight: 400; font-style: normal; font-size: 15px; line-height: normal; text-decoration: none; color: #616161;">NGO
-            crm</a>
-        </div>
-
-        
-      </div>
     </div>
 
     <div class="container-fluid my-4">
-      <div class="row justify-content-center"">
-<div class=" col-md-4 text-center col-sm-12">
-        <i class="bi bi-globe-europe-africa"
-          style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97);">
-          English (United States)</i>
-        <span style="margin: 0 20px;">
-          <i class="bi bi-shield-check"
-            style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97);">
-            Your Privacy Choices</i>
-        </span>
-      </div>
-      <div class="col-md-8 col-sm-12" style="padding-left: 165px;">
-        <span
-          style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97); margin: 0 5px;">Sitemap</span>
-        <span
-          style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97); margin: 0 5px;">Contact
-          Faciotech Foundation</span>
-        <span
-          style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97); margin: 0 5px;">Privacy</span>
-        <span
-          style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97); margin: 0 5px;">Terms
-          of use</span>
-        <!-- <span
-  style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97); margin: 0 5px;">Trademarks</span>
-<span
-  style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97); margin: 0 5px;">Safety
-  & Co.</span>
-<span
-  style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97); margin: 0 5px;">Recycling</span>
-<span
-  style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97); margin: 0 5px;">About
-  our ads</span> -->
-        <i class="bi bi-c-circle"
-          style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97);">
-          Faciotech Foundation 2024
-        </i>
-      </div>
-    </div>
-  </footer>
+        <div class="row">
+            <div class=" col-md-4 col-sm-12">
+                <i class="bi bi-globe-europe-africa"
+                    style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97);">
+                    English (United States)</i>
+                <span style="margin: 0 20px;">
+                    <i class="bi bi-shield-check"
+                        style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97);">
+                        Your Privacy Choices</i>
+                </span>
+            </div>
+            <div class="col-md-8 col-sm-12 d-flex flex-row-reverse bd-highlight" style="padding-left: 100px;">
+                <span class="bd-highlight"
+                    style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97); margin: 0 5px;">Sitemap</span>
+                <span class="bd-highlight"
+                    style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97); margin: 0 5px;">Contact
+                    Faciotech Foundation</span>
+                <span class="bd-highlight"
+                    style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97); margin: 0 5px;">Privacy</span>
+                <span class="bd-highlight"
+                    style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97); margin: 0 5px;">Terms
+                    of use</span>
+                <i class="bi bi-c-circle"
+                    style="font-weight: 400; font-style: normal; font-size: 11px; line-height: 16px; color: rgb(97, 97, 97);">
+                    Faciotech Foundation 2024
+                </i>
+            </div>
+        </div>
+</footer>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
