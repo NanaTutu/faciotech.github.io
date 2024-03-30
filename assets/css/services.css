@@ -2,7 +2,7 @@
     margin-top: 15px;
     margin-bottom: 0px;
     height: 300px;
-    background-image: url('../images/career.jpg');
+    background-image: url('../images/services001.jpg');
     background-size: cover;
     background-position: center;
     position: relative; /* Ensure the container is positioned relative */
@@ -43,20 +43,15 @@
     margin: 0 75px;
 }
 
-.section-one, 
-.section-two, 
-.section-three,
-.section-four{
-    margin: 50px 0;
+.section-one{
+    margin: 60px 0;
 }
 
-.section-one .row img{
-    max-width: 8%;
-    height: auto;
+.order-md-1 {
+    order: 1;
 }
-
-.section-three .row .card-body{
-    margin: 20px 0;
+  .order-md-2 {
+    order: 2;
 }
 
 footer {
@@ -66,30 +61,23 @@ footer {
     justify-content: center;
     padding: 30px 75px;
     /* text-align: center; */
-  }
-  footer img{
+}
+footer img{
     height: 50px !important;
-  }
-
-  .order-md-1 {
-    order: 2;
-  }
-  .order-md-2 {
-    order: 1;
-  }
+}
 
   /* responsive */
+
 /* For very small screens (e.g., older smartphones, budget devices) */
 @media only screen and (min-width: 200px) and (max-width: 320px) {
     
 }
   
-  /* For small to medium-sized screens (e.g., some older iPhones, smaller Android devices) */
+/* For small to medium-sized screens (e.g., some older iPhones, smaller Android devices) */
 @media only screen and (min-width: 321px) and (max-width: 480px) {
     .banner{
         justify-content: center;
     }
-
     .banner div {
         position: relative; /* Ensure the text container is positioned relative */
         padding: 20px;
@@ -99,45 +87,23 @@ footer {
     
     .wrapper{
         margin: 0 5px;
-    }
-
-    .section-one .row img{
-        display: none;
-    }
-    .section-one .row h4{
-        text-align: center;
-    }
+    } 
+    
     .section-one .row p{
         text-align: justify;
-    }
-    
-    .section-two .row h4{
-        text-align: center;
-    }
-    .section-two .row p{
-        text-align: justify;
-    }
-
-    .section-three .row img{
-        height: 200px;
-    }
-
-    .section-four .row .col-lg-4 .card-body{
-        text-align: center;
-        margin: 20px 0;
     }
 
     footer{
         padding: 50px 0;
-    }
+    }  
+    
 }
   
-  /* For medium-sized screens (e.g., standard smartphones) */
-@media only screen and (min-width: 481px) and (max-width: 640px) {
+/* For medium-sized screens (e.g., standard smartphones) */
+@media only screen and (min-width: 481px) and (max-width: 660px) {
     .banner{
         justify-content: center;
     }
-
     .banner div {
         position: relative; /* Ensure the text container is positioned relative */
         padding: 20px;
@@ -148,84 +114,49 @@ footer {
     .wrapper{
         margin: 0 5px;
     }
-
-    .section-one .row img{
-        display: none;
-    }
-    .section-one .row h4{
-        text-align: center;
-    }
+    
     .section-one .row p{
         text-align: justify;
     }
     
-    .section-two .row h4{
-        text-align: center;
-    }
-    .section-two .row p{
-        text-align: justify;
-    }
-
-    .section-three .row img{
-        height: 200px;
-    }
-
-    .section-four .row .col-lg-4 .card-body{
-        text-align: center;
-        margin: 20px 0;
-    }
-
-    .order-md-1 {
-        order: 2;
-      }
-      .order-md-2 {
-        order: 1;
-      }
-
     footer{
         padding: 50px 0;
-    }    
+    }  
+    
 }
   
-  /* For larger screens (e.g., phablets) */
-@media only screen and (min-width: 641px) and (max-width: 800px) {
+/* For larger screens (e.g., phablets) */
+@media only screen and (min-width: 661px) and (max-width: 800px) {
     .wrapper{
         margin: 0 30px;
     }
-    .section-two .row{
-        margin: 20px 0;
-    }
-    .section-three .row img{
-        height: 200px;
-    }
+    
     .section-one .row p{
         text-align: justify;
     }
-    .section-two .row p{
-        text-align: justify;
-    }
+
+    footer{
+        padding: 20px 0;
+    }  
+    
 }
   
-  /* For extra-large screens (e.g., tablets) */
+/* For extra-large screens (e.g., tablets) */
 @media only screen and (min-width: 801px) and (max-width: 1024px) {
-    .section-three .row img{
-        height: 200px;
-    } 
-    .section-one .row p{
-        text-align: justify;
+    .order-lg-1 {
+        order: 1;
     }
-    .section-two .row p{
-        text-align: justify;
-    }   
+      .order-lg-2 {
+        order: 2;
+    }  
 }
 
-    /* For larger screens (e.g., larger laptops, desktop monitors) */
+/* For larger screens (e.g., larger laptops, desktop monitors) */
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
-        /* Add your CSS rules for this breakpoint */
+    
 }
 
-    /* For extra-large screens (e.g., large monitors, wide desktop screens) */
+/* For extra-large screens (e.g., large monitors, wide desktop screens) */
 @media only screen and (min-width: 1281px) {
-        /* Add your CSS rules for this breakpoint */
+    
 }
-  

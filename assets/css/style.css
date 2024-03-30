@@ -891,10 +891,10 @@ a.visit {
   }
 
   .order-md-1 {
-    order: 2;
+    order: 1;
   }
   .order-md-2 {
-    order: 1;
+    order: 2;
   }
 
   .callback-form{

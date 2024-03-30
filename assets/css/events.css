@@ -1,0 +1,224 @@
+.banner {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    height: 300px;
+    background-image: url('../images/events.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Ensure the container is positioned relative */
+  }
+  
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+  }
+  
+  .banner div {
+    position: relative; /* Ensure the text container is positioned relative */
+    padding: 20px;
+    color: white;
+  }
+  
+  .banner h1 {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .banner p {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+  }
+
+.wrapper{
+    margin: 0 75px;
+}
+
+.events{
+    padding: 0px 0;
+    margin: 60px 0;
+  }
+  
+  .events-container {
+    min-width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tab-wrapper{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1 );
+    background-color: #fff;
+  }
+  
+  .tab-header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .tab-header .tab-btn{
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-header .tab-btn:hover,
+  .tab-header .tab-btn.active{
+    color: #0067B8;  
+  }
+  
+  .tab-header .underline{
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    transition: all 0.3s;
+    background-color:  #0067B8;
+  }
+  
+  .tab-body{
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .tab-body .tab-content{
+    min-width: 100%;
+    padding: 20px;
+    font-size: 12px;
+    transition: all 0.3s;
+    text-align: justify; 
+  }
+
+  .tab-body .tab-content .event-banner{
+    height: 200px;
+    background-image: url('../images/image004.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .tab-body .tab-content .event-banner h4{
+    padding: 10px 10px;
+  }
+  
+  .tab-body .tab-content .row h5{
+    margin: 10px 0;
+  }
+  .tab-body .tab-content .row h4{
+    color: white;
+  }
+  footer {
+    background-color: #f2f2f2;
+    padding: 60px 0 10px 0;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 75px;
+    /* text-align: center; */
+}
+footer img{
+    height: 50px !important;
+}
+
+  /* responsive */
+
+/* For very small screens (e.g., older smartphones, budget devices) */
+@media only screen and (min-width: 200px) and (max-width: 320px) {
+    
+}
+  
+/* For small to medium-sized screens (e.g., some older iPhones, smaller Android devices) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .banner{
+        justify-content: center;
+    }
+    .banner div {
+        position: relative; /* Ensure the text container is positioned relative */
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    .wrapper{
+        margin: 0 5px;
+    }  
+    .tab-header .tab-btn{
+      padding: 15px 10px;
+    }
+
+    .tab-body .tab-content .event-banner{
+      height: 200px;
+    }
+      
+    footer{
+      padding: 50px 0;
+    }
+}
+  
+/* For medium-sized screens (e.g., standard smartphones) */
+@media only screen and (min-width: 481px) and (max-width: 660px) {
+    .banner{
+        justify-content: center;
+    }
+    .banner div {
+        position: relative; /* Ensure the text container is positioned relative */
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    .wrapper{
+        margin: 0 5px;
+    }  
+    .tab-header .tab-btn{
+      padding: 15px 10px;
+    }
+
+    footer{
+        padding: 50px 0;
+    }
+
+    .tab-body .tab-content .event-banner{
+      height: 300px;
+    }
+}
+  
+/* For larger screens (e.g., phablets) */
+@media only screen and (min-width: 661px) and (max-width: 800px) {
+    .wrapper{
+        margin: 0 30px;
+    }   
+}
+  
+/* For extra-large screens (e.g., tablets) */
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+    
+}
+
+/* For larger screens (e.g., larger laptops, desktop monitors) */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    
+}
+
+/* For extra-large screens (e.g., large monitors, wide desktop screens) */
+@media only screen and (min-width: 1281px) {
+    
+}
