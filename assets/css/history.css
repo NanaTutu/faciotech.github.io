@@ -147,9 +147,13 @@ footer img{
     .wrapper{
         margin: 0 30px;
     }
+
+    .section-three .row .col-md-3 .heading{
+      padding: 20px 0;
+    }
     footer{
       padding: 20px 0;
-  }
+    }
   }
   
   /* For extra-large screens (e.g., tablets) */
