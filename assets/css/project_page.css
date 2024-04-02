@@ -1,0 +1,24 @@
+.wrapper{
+    margin: 0 75px;
+}
+
+.empower {
+    text-align: center;
+  }
+  
+  .empower span {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+  }
+  
+  .empower .empower_facio {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: normal;
+    margin: 10px 0;
+  }
