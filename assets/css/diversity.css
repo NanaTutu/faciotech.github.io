@@ -201,6 +201,11 @@ footer {
     .section-one .row p{
         text-align: justify;
     }
+
+    .list-point{
+        width: 60%;
+    }
+
     .section-one .row li{
         text-align: justify;
     }
