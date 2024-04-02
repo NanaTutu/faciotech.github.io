@@ -10,9 +10,8 @@
 .section-seven,
 .section-eight,
 .section-nine,
-.section-ten,
-.socials{
-    margin: 50px 0;
+.section-ten{
+    margin: 70px 0;
 }
 
 .words-of-commitment{
@@ -21,15 +20,6 @@
 
   .empower {
     text-align: center;
-  }
-  
-  .empower span {
-    font-weight: 600;
-    font-style: normal;
-    font-size: 28px;
-    line-height: 30px;
-    text-align: center;
-    color: black;
   }
   
   .empower .empower_facio {
@@ -72,7 +62,8 @@
     display: flex;
     align-items:baseline;
     justify-content: center;
-    width: 100%; 
+    width: 100%;
+    margin: 20px 0;
   }
 
   .tab-header .tab-btn{
@@ -103,14 +94,9 @@
     background-color:  #0067B8;
   }
 
-  .tab-body{
-    display: flex;
-    overflow: hidden;
-  }
-
   .tab-body .tab-content{
     min-width: 100%;
-    padding: 20px;
+    padding: 0px;
     font-size: 12px;
     transition: all 0.3s;
     text-align: justify; 
@@ -174,14 +160,6 @@
     display: flex;
     overflow: hidden;
   }
-  
-  .tab-body .tab-content{
-    min-width: 100%;
-    padding: 20px;
-    font-size: 12px;
-    transition: all 0.3s;
-    text-align: justify; 
-  }
 
   .sponsors img {
     height: 10rem;
@@ -200,130 +178,291 @@
     height: 50px !important;
   }
 
-  /* responsive */
-
-  /* mobile */
-  @media(max-width: 425px){
-    .wrapper{
-        margin: 0 5px;
-    }
-
-    .carousel_slide {
-        overflow: hidden;
-        position: relative;
-        height: 15rem;
-        /* Set the height of the carousel to 500px */
-      }
-
-      .empower span {
-        text-align: left;
-        font-size: 20px;
-        line-height: normal;
-      }
-      .empower{
-        text-align: left;
-      }
-
-    .section-three p,
-    .section-eight p{
-      padding: 0 20px;
-      text-align: center;
-    }
+    /* responsive */
+/* For very small screens (e.g., older smartphones, budget devices) */
+@media only screen and (min-width: 200px) and (max-width: 320px) {
     
-    .section-nine img{
-      height: 100px;
-      width: 100px;      
-    }
-    
-    footer{
-        padding: 50px 0;
-    /* text-align: center; */
-    }
-  }
-  /* mobile */
-
-/* tablet */
-@media(min-width: 426px) and (max-width: 768px){
+}
+  
+  /* For small to medium-sized screens (e.g., some older iPhones, smaller Android devices) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
     .wrapper{
-        margin: 0 5px;
+      margin: 0 5px;
     }
 
     .carousel_slide {
       overflow: hidden;
       position: relative;
-      height: 20rem;
-      background-color: red;
-      /* Set the height of the carousel to 500px */
+      height: 12rem;
     }
 
-    .carousel_slide .carousel-inner img{
-      height: 20rem;
+    .empower .row h2 {
+      text-align: center;
+    }
+    
+    .empower .empower_facio {
+      font-weight: 400;
+      font-style: normal;
+      font-size: 15px;
+      line-height: normal;
+      margin: 10px 0;
+      text-align: justify;
     }
 
-    .section-four .row img{
+    .section-two .row p{
+      text-align: justify;
+    }
+
+    .catalyst{
+      padding: 40px 10px;
+    }
+
+    .section-four .row img,
+    .section-seven .row img{
       height: 200px;
     }
-
-    .section-five .events-container .tab-body .row .col-md-6{
-      align-content: center;
+    .section-four .row p{
+      text-align: justify;
     }
 
-    .section-nine img{
-      height: 100px;
-      width: 100px;
-      margin: 0 10px;      
+    .tab-header .tab-btn{
+      font-size: 15px;
     }
 
-    .section-three p,
-    .section-eight p{
-      padding: 0 80px;
+    .section-nine .row .col-sm-12 h6,
+    .section-nine .row .col-sm-12 h4{
       text-align: center;
+    }
+    .section-nine .row .col-sm-12 p{
+      text-align: justify;
+    }
+    .section-nine img{
+      height: 80px;
+      width: 80px;
+      margin: 2px;
     }
 
     footer{
-      padding: 50px 0;
-  /* text-align: center; */
+      padding: 30px 0;
     }
+}
+  
+  /* For medium-sized screens (e.g., standard smartphones) */
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+  .wrapper{
+    margin: 0 5px;
   }
-  /* tablet */
 
-  /* laptop */
-  @media(min-width: 769px) and (max-width: 1024px){
-    .wrapper{
-        margin: 0 30px;
-    }
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 15rem;
+  }
 
-    .section-three p,
-    .section-eight p{
-      padding: 0 150px;
-      text-align: center;
-    }
+  .empower .row h2 {
+    text-align: center;
+  }
+  
+  .empower .empower_facio {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: normal;
+    margin: 10px 0;
+    text-align: justify;
+  }
 
-    .section-nine img{
-      height: 120px;
-      width: 120px;
-      margin: 0 20px;      
-    }
+  .section-two .row p{
+    text-align: justify;
+  }
 
-    footer{
-        padding: 50px 0;
-    }
+  .catalyst{
+    padding: 40px 10px;
+  }
+  .catalyst p{
+    text-align: center;
+  }
+
+  .section-four .row img,
+  .section-seven .row img{
+    height: 300px;
+  }
+  .section-four .row p{
+    text-align: justify;
+  }
+
+  .tab-header .tab-btn{
+    font-size: 15px;
+  }
+
+  .section-nine .row .col-sm-12 h6,
+  .section-nine .row .col-sm-12 h4{
+    text-align: center;
+  }
+  .section-nine .row .col-sm-12 p{
+    text-align: justify;
+  }
+  .section-nine img{
+    height: 150px;
+    width: 150px;
+    margin: 2px;
+  }
+
+  footer{
+    padding: 30px 0;
+  }
+}
+  
+  /* For larger screens (e.g., phablets) */
+@media only screen and (min-width: 641px) and (max-width: 800px) {
+  .wrapper{
+    margin: 0 20px;
+  }
+
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 25rem;
+  }
+
+  .empower .row h2 {
+    text-align: center;
+  }
+  
+  .empower .empower_facio {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: normal;
+    margin: 10px 0;
+    text-align: justify;
+  }
+
+  .section-two .row p{
+    text-align: justify;
+  }
+
+  .catalyst{
+    padding: 40px 10px;
+  }
+  .catalyst p{
+    text-align: center;
+  }
+
+  .section-four .row img,
+  .section-seven .row img{
+    height:200px;
+  }
+  .section-four .row p{
+    text-align: justify;
+  }
+
+  .section-five .row h2,
+  .section-five .row .transform-text{
+    text-align: center;
+  }
+
+  .tab-header .tab-btn{
+    font-size: 15px;
+  }
+
+  .section-nine .row .col-sm-12 h6,
+  .section-nine .row .col-sm-12 h4{
+    text-align: left;
+    font-size: 15px;
+  }
+  .section-nine .row .col-sm-12 p{
+    text-align: justify;
+  }
+  .section-nine img{
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+  }
+
+  footer{
+    padding: 30px 0;
+  } 
+}
+  
+  /* For extra-large screens (e.g., tablets) */
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+  .wrapper{
+    margin: 0 20px;
+  }
+
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 25rem;
+  }
+
+  .empower .row h2 {
+    text-align: center;
+  }
+  
+  .empower .empower_facio {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: normal;
+    margin: 10px 0;
+    text-align: justify;
+  }
+
+  .section-two .row p{
+    text-align: justify;
+  }
+
+  .catalyst{
+    padding: 40px 10px;
+  }
+  .catalyst p{
+    text-align: center;
+  }
+
+  .section-four .row img,
+  .section-seven .row img{
+    height:200px;
+  }
+  .section-four .row p{
+    text-align: justify;
+  }
+
+  .section-five .row h2,
+  .section-five .row .transform-text{
+    text-align: center;
+  }
+
+  .tab-header .tab-btn{
+    font-size: 15px;
+  }
+
+  .section-nine .row .col-sm-12 h6,
+  .section-nine .row .col-sm-12 h4{
+    text-align: left;
+    font-size: 15px;
+  }
+  .section-nine .row .col-sm-12 p{
+    text-align: justify;
+  }
+  .section-nine img{
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+  }
+
+  footer{
+    padding: 30px 0;
+  }
+}
+
+    /* For larger screens (e.g., larger laptops, desktop monitors) */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+   
+}
+
+    /* For extra-large screens (e.g., large monitors, wide desktop screens) */
+@media only screen and (min-width: 1281px) {
     
-  }
-  /* laptop */
-
-  @media(min-width: 1025px) and (max-width: 1440px){
-    .section-three p,
-    .section-eight p{
-      padding: 0 200px;
-      text-align: center;
-    }
-    
-    .section-nine img{
-      height: 150px;
-      width: 150px;
-      margin: 0 20px;      
-    }
-  }
-
-  /* responsive */
+}
