@@ -64,7 +64,7 @@ footer {
 }
 
 /* For medium-sized screens (e.g., standard smartphones) */
-@media only screen and (min-width: 481px) and (max-width: 640px) {
+@media only screen and (min-width: 481px) and (max-width: 660px) {
   .wrapper{
     margin: 0 5px;
   }
@@ -90,7 +90,7 @@ footer {
 }
 
 /* For larger screens (e.g., phablets) */
-@media only screen and (min-width: 641px) and (max-width: 800px) {
+@media only screen and (min-width: 661px) and (max-width: 800px) {
   .wrapper{
     margin: 0 30px;
   }
