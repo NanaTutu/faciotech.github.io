@@ -162,8 +162,8 @@
   }
 
   .sponsors img {
-    height: 10rem;
-    width: 20rem;
+    height: 200px;
+    width: 200px;
   }
 
   footer {
@@ -248,7 +248,7 @@
 }
   
   /* For medium-sized screens (e.g., standard smartphones) */
-@media only screen and (min-width: 481px) and (max-width: 640px) {
+@media only screen and (min-width: 481px) and (max-width: 660px) {
   .wrapper{
     margin: 0 5px;
   }
@@ -314,7 +314,7 @@
 }
   
   /* For larger screens (e.g., phablets) */
-@media only screen and (min-width: 641px) and (max-width: 800px) {
+@media only screen and (min-width: 661px) and (max-width: 800px) {
   .wrapper{
     margin: 0 20px;
   }
@@ -386,7 +386,7 @@
 }
   
   /* For extra-large screens (e.g., tablets) */
-@media only screen and (min-width: 801px) and (max-width: 1024px) {
+@media only screen and (min-width: 801px) and (max-width: 1024px){
   .wrapper{
     margin: 0 20px;
   }
@@ -449,7 +449,76 @@
   .section-nine img{
     height: 100px;
     width: 100px;
-    margin: 2px;
+  }
+
+  footer{
+    padding: 30px 0;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) and (orientation: portrait) {
+  .wrapper{
+    margin: 0 20px;
+  }
+
+  .carousel_slide {
+    overflow: hidden;
+    position: relative;
+    height: 25rem;
+  }
+
+  .empower .row h2 {
+    text-align: center;
+  }
+  
+  .empower .empower_facio {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: normal;
+    margin: 10px 0;
+    text-align: justify;
+  }
+
+  .section-two .row p{
+    text-align: justify;
+  }
+
+  .catalyst{
+    padding: 40px 10px;
+  }
+  .catalyst p{
+    text-align: center;
+  }
+
+  .section-four .row img,
+  .section-seven .row img{
+    height:200px;
+  }
+  .section-four .row p{
+    text-align: justify;
+  }
+
+  .section-five .row h2,
+  .section-five .row .transform-text{
+    text-align: center;
+  }
+
+  .tab-header .tab-btn{
+    font-size: 15px;
+  }
+
+  .section-nine .row .col-sm-12 h6,
+  .section-nine .row .col-sm-12 h4{
+    text-align: left;
+    font-size: 15px;
+  }
+  .section-nine .row .col-sm-12 p{
+    text-align: justify;
+  }
+  .section-nine img{
+    height: 100px;
+    width: 100px;
   }
 
   footer{
@@ -458,11 +527,33 @@
 }
 
     /* For larger screens (e.g., larger laptops, desktop monitors) */
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
-   
+
+    @media only screen and (min-width: 1025px) and (max-width: 1192px) {
+      .section-nine img{
+       height: 150px;
+       width: 150px;
+       margin: 2px;
+     }
+   }
+
+@media only screen and (min-width: 1193px) and (max-width: 1280px) {
+   .section-nine img{
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+  }
 }
 
     /* For extra-large screens (e.g., large monitors, wide desktop screens) */
 @media only screen and (min-width: 1281px) {
-    
+
+  .catalyst p{
+    text-align: center;
+  }
+
+    .section-nine img{
+      height: 200px;
+      width: 200px;
+      margin: 2px;
+    }
 }

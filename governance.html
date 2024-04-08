@@ -453,6 +453,24 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="assets/js/script.js"></script>
   <script src="assets/js/owl carousel.js"></script>
+  <script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 50,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    });
+  </script>
   <script src="assets/js/jquery-3.7.1.min.js"></script>
   <script>
     new bootnavbar();
@@ -483,24 +501,7 @@
       }
     }
 </script>
-  <script type="text/javascript">
-    $('.owl-carousel').owlCarousel({
-      loop: true,
-      margin: 50,
-      nav: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 3
-        },
-        1000: {
-          items: 4
-        }
-      }
-    });
-  </script>
+  
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var owl = $('#leadership-carousel').owlCarousel();
