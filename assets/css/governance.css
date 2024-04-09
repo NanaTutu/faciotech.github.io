@@ -315,7 +315,7 @@ footer img{
 }
 
 /* For extra-large screens (e.g., large monitors, wide desktop screens) */
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1281px) and (max-width: 1900px) {
     .section-one .row img,
     .section-three .row img{
         height: 300px;
@@ -326,5 +326,34 @@ footer img{
     .section-four .board-writeup{
         width: 60%;
         text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 1901px) {
+    .section-one .row img,
+    .section-three .row img{
+        height: 400px;
+        width: 350px;
+    }
+    
+    .section-two .leader-writeup,
+    .section-four .board-writeup{
+        width: 60%;
+        text-align: justify;
+    }
+}
+
+/* Flip dimensions for portrait orientation */
+@media only screen and (orientation: portrait) {
+    .section-one .row img,
+    .section-three .row img {
+        width: 200px; /* Swap width and height for portrait */
+        height: 200px;
+    }
+
+    .section-two .row img,
+    .section-four .row img{
+        width: 250px;
+        height: 300px;
     }
 }
