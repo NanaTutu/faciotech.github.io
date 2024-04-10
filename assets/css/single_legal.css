@@ -43,64 +43,18 @@
     margin: 0 75px;
 }
 
-.gfg { 
-    height: 50px; 
-    width: 50px; 
-  
-} 
-  
-.mynav { 
-    color: #000; 
-} 
-  
-.mynav li a { 
-    color: #000; 
-    text-decoration: none; 
-    width: 100%; 
-    display: block; 
-    border-radius: 5px; 
-    padding: 8px 5px; 
-} 
-  
-.mynav li a.active { 
-    background: rgba(255, 255, 255, 0.2); 
-} 
-  
-.mynav li a:hover { 
-    background: rgba(255, 255, 255, 0.2); 
-} 
-  
-.mynav li a i { 
-    width: 25px; 
-    text-align: center; 
-} 
-  
-.notification-badge { 
-    background-color: rgba(255, 255, 255, 0.7); 
-    float: right; 
-    color: #222; 
-    font-size: 14px; 
-    padding: 0px 8px; 
-    border-radius: 2px; 
-}
-.dates{
-    color: #000; 
-}
-.dates p{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-}
-.bdSidebar{
-    background-color: red;
-    padding: 10px 20px;
-}
-
 .section-one{
     margin-bottom: 70px;
 }
 
-  footer {
+.section-one .nav-pills li a:hover{
+    background-color: rgb(0, 93, 166);
+    color: white;
+}
+
+
+
+footer {
     background-color: #f2f2f2;
     padding: 60px 0 10px 0;
     align-items: center;

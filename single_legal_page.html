@@ -146,120 +146,47 @@
 
       <!-- section one -->
       <section class="section-one">
-        <div class="container-fluid p-0 d-flex h-100"> 
-            <div id="bdSidebar" 
-                 class="bdSidebar d-flex flex-column  
-                        flex-shrink-0 bg-light
-                        text-white offcanvas-md offcanvas-start"> 
-                <a href="#" 
-                   class="navbar-brand"> 
-                </a><hr> 
-                <ul class="mynav nav nav-pills flex-column mb-auto"> 
-                    <li class="nav-item mb-1"> 
-                        <a href="#"> 
-                            <!-- <i class="fa-regular fa-user"></i>  -->
-                            Private Policies
-                        </a> 
-                    </li> 
-      
-                    <li class="nav-item mb-1"> 
-                        <a href="#"> 
-                            <!-- <i class="fa-regular fa-bookmark"></i>  -->
-                            Terms and Conditions
-                            <!-- <span class="notification-badge">5</span>  -->
-                        </a> 
-                    </li> 
-                    <!-- <li class="nav-item mb-1"> 
-                        <a href="#"> 
-                            <i class="fa-regular fa-newspaper"></i> 
-                            Articles 
-                        </a> 
-                    </li>  -->
-                    <!-- <li class="nav-item mb-1"> 
-                        <a href="#"> 
-                            <i class="fa-solid fa-archway"></i> 
-                            Institutions 
-                        </a> 
-                    </li>  -->
-                    <!-- <li class="nav-item mb-1"> 
-                        <a href="#"> 
-                            <i class="fa-solid fa-graduation-cap"></i> 
-                            Organizations 
-                        </a> 
-                    </li>  -->
-      
-                    <!-- <li class="sidebar-item  nav-item mb-1"> 
-                        <a href="#" 
-                           class="sidebar-link collapsed" 
-                           data-bs-toggle="collapse"
-                           data-bs-target="#settings"
-                           aria-expanded="false"
-                           aria-controls="settings"> 
-                            <i class="fas fa-cog pe-2"></i> 
-                            <span class="topic">Settings </span> 
-                        </a> 
-                        <ul id="settings" 
-                            class="sidebar-dropdown list-unstyled collapse" 
-                            data-bs-parent="#sidebar"> 
-                            <li class="sidebar-item"> 
-                                <a href="#" class="sidebar-link"> 
-                                    <i class="fas fa-sign-in-alt pe-2"></i> 
-                                    <span class="topic"> Login</span> 
-                                </a> 
-                            </li> 
-                            <li class="sidebar-item"> 
-                                <a href="#" class="sidebar-link"> 
-                                    <i class="fas fa-user-plus pe-2"></i> 
-                                    <span class="topic">Register</span> 
-                                </a> 
-                            </li> 
-                            <li class="sidebar-item"> 
-                                <a href="#" class="sidebar-link"> 
-                                    <i class="fas fa-sign-out-alt pe-2"></i> 
-                                    <span class="topic">Log Out</span> 
-                                </a> 
-                            </li> 
-                        </ul> 
-                    </li>  -->
-                </ul> 
-                <hr> 
-                    <div class="d-flex"> 
-        
-                        <!-- <i class="fa-solid fa-book  me-2"></i>  -->
-                        <span class="dates"> 
-                            <p class="mt-1 mb-0"> 
-                                Date Created: 09-04-2024
-                            </p> 
-                            <p class="mt-1 mb-0"> 
-                                Date Updated: 09-04-2024
-                            </p>
-                        </span> 
-                    </div>
-                <hr> 
-                
-            </div> 
-      
-            <div class="flex-fill"> 
-                <div class="p-2 d-md-none d-flex text-white bg-success"> 
-                    <a href="#" class="text-white" 
-                       data-bs-toggle="offcanvas"
-                       data-bs-target="#bdSidebar"> 
-                        <i class="fa-solid fa-bars"></i> 
-                    </a> 
-                    <span class="ms-3">GFG Portal</span> 
-                </div> 
-                <div class="p-4">
-                    <div class="row"> 
-                        <div class="col"> 
-                            <p>Page content goes here</p> 
-                        </div> 
-                    </div> 
-                </div> 
-      
-            </div> 
-        </div> 
+          <div class="container-fluid">
+            <div class="row flex-nowrap">
+              <div class="bg-light col-md-2 d-flex flex-column justify-content-between">
+                  <div class="bg-light p-2">
+                      <ul class="nav nav-pills flex-column mt-4">
+                        <li class="nav-item py-2 py-sm-0  ">
+                          <a href="#policies" class="nav-link" aria-current="page">
+                            <!-- <i class="fa fa-gauge"></i> -->
+                            <span class="ms-3 d-none d-sm-inline">
+                                Policies
+                            </span>
+                          </a>
+                        </li>
+                        <li class="nav-item py-2 py-sm-0">
+                          <a href="#privacy" class="nav-link">
+                            <!-- <i class="fa fa-house"></i> -->
+                            <span class="ms-3 d-none d-sm-inline">
+                                Privacy
+                            </span>
+                          </a>
+                        </li>
+                        <li class="nav-item py-2 py-sm-0">
+                          <a href="#terms" class="nav-link">
+                            <!-- <i class="fa fa-table-list"></i> -->
+                            <span class="ms-3 d-none d-sm-inline">
+                                Terms and Conditions
+                            </span>
+                          </a> 
+                        </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="p-3" id="main-content">
+                <h2>Main Content</h2>
+                <p>This is the default content.</p>
+              </div>
+            </div>
+          </div>
       </section>
       <!-- section one -->
+
 
 
    <!-- socials -->
@@ -307,6 +234,32 @@
         }
       }
     }
+    </script>
+    <script>
+      $(document).ready(function() {
+        // Handle click event on navigation links
+        $('.nav-link').click(function(e) {
+          e.preventDefault(); // Prevent default link behavior
+  
+          // Get the target content ID from the href attribute
+          var targetContentId = $(this).attr('href');
+  
+          // Load content based on the target content ID
+          switch (targetContentId) {
+            case '#policies':
+              $('#main-content').html('<h2>Policies</h2><p>This is the Policies content.</p>');
+              break;
+            case '#privacy':
+              $('#main-content').html('<h2>Privacy</h2><p>This is the Privacy content.</p>');
+              break;
+            case '#terms':
+              $('#main-content').html('<h2>Terms and Conditions</h2><p>This is the Terms and Conditions content.</p>');
+              break;
+            default:
+              break;
+          }
+        });
+      });
     </script>
 </body>
 
