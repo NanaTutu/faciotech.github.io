@@ -48,7 +48,7 @@
 }
 
 .section-one .row .col-md-2{
-  max-height: 150px;
+  max-height: 200px;
 }
 
 .section-one .nav-pills li a:hover{
@@ -96,6 +96,18 @@ footer img{
     .wrapper{
         margin: 0 5px;
     }
+
+    .section-one .row .col-md-2{
+      margin-bottom: 10px;
+    }
+    .section-one .row .col-md-2 .tab-list{
+      padding: 0 !important;
+    }
+    .section-one .row .col-md-2 .tab-list .{
+      padding: 0 !important;
+    }
+
+
 
     footer{
         padding: 50px 0;
