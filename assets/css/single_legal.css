@@ -47,9 +47,18 @@
     margin-bottom: 70px;
 }
 
+.section-one .row .col-md-2{
+  max-height: 150px;
+}
+
 .section-one .nav-pills li a:hover{
     background-color: rgb(0, 93, 166);
     color: white;
+}
+
+#main-content .row p{
+  font-size: 13px;
+  color: #696969;
 }
 
 
