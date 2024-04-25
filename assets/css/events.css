@@ -126,17 +126,6 @@
   .tab-body .tab-content .row h4{
     color: white;
   }
-  footer {
-    background-color: #f2f2f2;
-    padding: 60px 0 10px 0;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 75px;
-    /* text-align: center; */
-}
-footer img{
-    height: 50px !important;
-}
 
   /* responsive */
 
@@ -167,10 +156,7 @@ footer img{
     .tab-body .tab-content .event-banner{
       height: 200px;
     }
-      
-    footer{
-      padding: 50px 0;
-    }
+    
 }
   
 /* For medium-sized screens (e.g., standard smartphones) */
@@ -190,10 +176,6 @@ footer img{
     }  
     .tab-header .tab-btn{
       padding: 15px 10px;
-    }
-
-    footer{
-        padding: 50px 0;
     }
 
     .tab-body .tab-content .event-banner{

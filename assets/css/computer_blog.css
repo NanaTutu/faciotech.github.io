@@ -18,18 +18,6 @@
   padding: 80px 0;
 }
 
-footer {
-    background-color: #f2f2f2;
-    padding: 60px 0 10px 0;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 75px;
-    /* text-align: center; */
-  }
-  footer img{
-    height: 50px !important;
-  }
-
 
   /* responsive */
 /* For very small screens (e.g., older smartphones, budget devices) */
@@ -50,9 +38,7 @@ footer {
     /* Set the height of the carousel to 500px */
   }
 
-  footer{
-    padding: 50px 0;
-  }
+  
 
   .section-one .row h3,
   .section-two .row h3,
@@ -76,9 +62,7 @@ footer {
     /* Set the height of the carousel to 500px */
   }
 
-  footer{
-    padding: 50px 0;
-  }
+  
 
   .section-one .row h3,
   .section-two .row h3,
@@ -101,10 +85,6 @@ footer {
     height: 30rem;
     /* Set the height of the carousel to 500px */
   }
-
-  footer{
-    padding: 20px 0;
-  } 
 }
 
 /* For extra-large screens (e.g., tablets) */
@@ -113,9 +93,6 @@ footer {
     margin: 0 30px;
   }
   
-  footer{
-    padding: 20px 0;
-  }
 }
 
   /* For larger screens (e.g., larger laptops, desktop monitors) */

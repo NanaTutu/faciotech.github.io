@@ -48,18 +48,6 @@
     margin: 60px 0;
 }
 
-footer {
-    background-color: #f2f2f2;
-    padding: 60px 0 10px 0;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 75px;
-    /* text-align: center; */
-}
-footer img{
-    height: 50px !important;
-}
-
   /* responsive */
 
 /* For very small screens (e.g., older smartphones, budget devices) */
@@ -82,10 +70,6 @@ footer img{
     .wrapper{
         margin: 0 5px;
     }  
-      
-    footer{
-      padding: 50px 0;
-    }
 }
   
 /* For medium-sized screens (e.g., standard smartphones) */
@@ -102,12 +86,7 @@ footer img{
     
     .wrapper{
         margin: 0 5px;
-    }  
-    
-
-    footer{
-        padding: 50px 0;
-    }
+    } 
 }
   
 /* For larger screens (e.g., phablets) */
@@ -115,17 +94,11 @@ footer img{
     .wrapper{
         margin: 0 30px;
     }
-    
-    footer{
-        padding: 50px 0;
-    }
 }
   
 /* For extra-large screens (e.g., tablets) */
 @media only screen and (min-width: 801px) and (max-width: 1024px) {
-    footer{
-        padding: 50px 0;
-    }  
+    
 }
 
 /* For larger screens (e.g., larger laptops, desktop monitors) */

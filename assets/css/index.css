@@ -166,17 +166,7 @@
     width: 200px;
   }
 
-  footer {
-    background-color: #f2f2f2;
-    padding: 60px 0 10px 0;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 75px;
-    /* text-align: center; */
-  }
-  footer img{
-    height: 50px !important;
-  }
+
 
     /* responsive */
 /* For very small screens (e.g., older smartphones, budget devices) */
@@ -241,10 +231,6 @@
       width: 80px;
       margin: 2px;
     }
-
-    footer{
-      padding: 30px 0;
-    }
 }
   
   /* For medium-sized screens (e.g., standard smartphones) */
@@ -290,6 +276,9 @@
   .section-four .row p{
     text-align: justify;
   }
+  .section-five .row h2{
+    text-align: center;
+  }
 
   .tab-header .tab-btn{
     font-size: 15px;
@@ -307,10 +296,6 @@
     width: 150px;
     margin: 2px;
   }
-
-  footer{
-    padding: 30px 0;
-  }
 }
   
   /* For larger screens (e.g., phablets) */
@@ -322,7 +307,7 @@
   .carousel_slide {
     overflow: hidden;
     position: relative;
-    height: 25rem;
+    height: 23rem;
   }
 
   .empower .row h2 {
@@ -379,10 +364,6 @@
     width: 100px;
     margin: 2px;
   }
-
-  footer{
-    padding: 30px 0;
-  } 
 }
   
   /* For extra-large screens (e.g., tablets) */
@@ -450,10 +431,6 @@
     height: 100px;
     width: 100px;
   }
-
-  footer{
-    padding: 30px 0;
-  }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1024px) and (orientation: portrait) {
@@ -519,10 +496,6 @@
   .section-nine img{
     height: 100px;
     width: 100px;
-  }
-
-  footer{
-    padding: 30px 0;
   }
 }
 
