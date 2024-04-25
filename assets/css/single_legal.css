@@ -63,17 +63,6 @@
 
 
 
-footer {
-    background-color: #f2f2f2;
-    padding: 60px 0 10px 0;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 75px;
-    /* text-align: center; */
-}
-footer img{
-    height: 50px !important;
-}
 
     /* responsive */
 /* For very small screens (e.g., older smartphones, budget devices) */
@@ -103,15 +92,13 @@ footer img{
     .section-one .row .col-md-2 .tab-list{
       padding: 0 !important;
     }
-    .section-one .row .col-md-2 .tab-list .{
+    .section-one .row .col-md-2 .tab-list {
       padding: 0 !important;
     }
 
 
 
-    footer{
-        padding: 50px 0;
-    }
+    
 
 }
   
@@ -131,9 +118,7 @@ footer img{
         margin: 0 5px;
     }
 
-    footer{
-        padding: 50px 0;
-    }
+    
 }
   
   /* For larger screens (e.g., phablets) */

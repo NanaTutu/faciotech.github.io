@@ -85,17 +85,6 @@
     height: 200px;
   }
 
-  footer {
-    background-color: #f2f2f2;
-    padding: 60px 0 10px 0;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 75px;
-    /* text-align: center; */
-  }
-  footer img{
-      height: 50px !important;
-  }
 
 
     /* responsive */
@@ -154,9 +143,6 @@
         display: none;
     }
     
-    footer{
-      padding: 50px 0;
-    }
 }
   
 /* For medium-sized screens (e.g., standard smartphones) */
@@ -210,10 +196,6 @@
     .donate-picture{
         display: none;
     }
-
-    footer{
-      padding: 50px 0;
-    }
     
 }
   
@@ -245,9 +227,6 @@
       height: 150px;
      }
 
-     footer{
-      padding: 50px 0;
-    }
 }
   
 /* For extra-large screens (e.g., tablets) */
@@ -271,9 +250,6 @@
     .donate-input{
       width: 100%;
       margin: 15px 0;
-    }
-    footer{
-      padding: 50px 0;
     }
 }
 

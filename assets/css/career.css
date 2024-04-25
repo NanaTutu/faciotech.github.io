@@ -59,18 +59,6 @@
     margin: 20px 0;
 }
 
-footer {
-    background-color: #f2f2f2;
-    padding: 60px 0 10px 0;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 75px;
-    /* text-align: center; */
-  }
-  footer img{
-    height: 50px !important;
-  }
-
   .order-md-1 {
     order: 2;
   }
@@ -127,9 +115,6 @@ footer {
         margin: 20px 0;
     }
 
-    footer{
-        padding: 50px 0;
-    }
 }
   
   /* For medium-sized screens (e.g., standard smartphones) */
@@ -182,9 +167,7 @@ footer {
         order: 1;
       }
 
-    footer{
-        padding: 50px 0;
-    }    
+      
 }
   
   /* For larger screens (e.g., phablets) */
