@@ -76,6 +76,15 @@
     width: 560px;
     /* margin: 10px 15px; */
   }
+  .donate-btn a{
+    padding: 5px 0; 
+    font-weight: 600; 
+    font-size: 24px; 
+    line-height: 30px; 
+    color: white;
+    width: 560px;
+    /* margin: 10px 15px; */
+  }
 
   .section-three h2{
     font-size: 26px;
@@ -279,10 +288,27 @@
   .section-two .row .col-lg-6 .donation-tab{
     margin: 0 10px;
   }
+  .section-two .row .tab-content .tab-pane .amount{
+    /* padding: 5px 120px; */
+    width: 46.8%;
+    padding: 5px 0;
+    margin: 5px 10px;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 1367px) and (max-width: 1485px) {
+  .wrapper{
+    background-color: red;
+  }
   .section-two .row .col-lg-6 .donation-tab{
     margin: 0 35px;
+  }
+  .section-two .row .tab-content .tab-pane .amount{
+    /* padding: 5px 120px; */
+    width: 43%;
+    padding: 5px 0;
+    margin: 5px 10px;
+    text-align: center;
   }
 }
